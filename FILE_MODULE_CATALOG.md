@@ -1,0 +1,546 @@
+# File Module Catalog
+
+Auto-generated: one module per .go file
+
+count: 180
+
+- github.com/driftappdev/libpackage/filemods/client/grpc/client/client
+  source: client/grpc/client/client.go
+  module_dir: file_modules/client/grpc/client/client
+- github.com/driftappdev/libpackage/filemods/client/grpc/interceptor/interceptor
+  source: client/grpc/interceptor/interceptor.go
+  module_dir: file_modules/client/grpc/interceptor/interceptor
+- github.com/driftappdev/libpackage/filemods/client/http/client/client
+  source: client/http/client/client.go
+  module_dir: file_modules/client/http/client/client
+- github.com/driftappdev/libpackage/filemods/client/http/options/options
+  source: client/http/options/options.go
+  module_dir: file_modules/client/http/options/options
+- github.com/driftappdev/libpackage/filemods/client/http/retry/retry
+  source: client/http/retry/retry.go
+  module_dir: file_modules/client/http/retry/retry
+- github.com/driftappdev/libpackage/filemods/client/http/timeout/timeout
+  source: client/http/timeout/timeout.go
+  module_dir: file_modules/client/http/timeout/timeout
+- github.com/driftappdev/libpackage/filemods/client/nats/publisher/publisher
+  source: client/nats/publisher/publisher.go
+  module_dir: file_modules/client/nats/publisher/publisher
+- github.com/driftappdev/libpackage/filemods/client/nats/subscriber/subscriber
+  source: client/nats/subscriber/subscriber.go
+  module_dir: file_modules/client/nats/subscriber/subscriber
+- github.com/driftappdev/libpackage/filemods/config/defaults/defaults
+  source: config/defaults/defaults.go
+  module_dir: file_modules/config/defaults/defaults
+- github.com/driftappdev/libpackage/filemods/config/env/env
+  source: config/env/env.go
+  module_dir: file_modules/config/env/env
+- github.com/driftappdev/libpackage/filemods/config/file/file
+  source: config/file/file.go
+  module_dir: file_modules/config/file/file
+- github.com/driftappdev/libpackage/filemods/config/loader/loader
+  source: config/loader/loader.go
+  module_dir: file_modules/config/loader/loader
+- github.com/driftappdev/libpackage/filemods/config/watcher/watcher
+  source: config/watcher/watcher.go
+  module_dir: file_modules/config/watcher/watcher
+- github.com/driftappdev/libpackage/filemods/contracts/errors/public/public
+  source: contracts/errors/public/public.go
+  module_dir: file_modules/contracts/errors/public/public
+- github.com/driftappdev/libpackage/filemods/contracts/pagination/pagination/pagination
+  source: contracts/pagination/pagination/pagination.go
+  module_dir: file_modules/contracts/pagination/pagination/pagination
+- github.com/driftappdev/libpackage/filemods/contracts/response/envelope/envelope
+  source: contracts/response/envelope/envelope.go
+  module_dir: file_modules/contracts/response/envelope/envelope
+- github.com/driftappdev/libpackage/filemods/contracts/versioning/version/version
+  source: contracts/versioning/version/version.go
+  module_dir: file_modules/contracts/versioning/version/version
+- github.com/driftappdev/libpackage/filemods/core/constants/constants/constants
+  source: core/constants/constants/constants.go
+  module_dir: file_modules/core/constants/constants/constants
+- github.com/driftappdev/libpackage/filemods/core/context/context/context
+  source: core/context/context/context.go
+  module_dir: file_modules/core/context/context/context
+- github.com/driftappdev/libpackage/filemods/core/context/keys/keys
+  source: core/context/keys/keys.go
+  module_dir: file_modules/core/context/keys/keys
+- github.com/driftappdev/libpackage/filemods/core/context/values/values
+  source: core/context/values/values.go
+  module_dir: file_modules/core/context/values/values
+- github.com/driftappdev/libpackage/filemods/core/error/error/error
+  source: core/error/error/error.go
+  module_dir: file_modules/core/error/error/error
+- github.com/driftappdev/libpackage/filemods/core/errors/base/base
+  source: core/errors/base/base.go
+  module_dir: file_modules/core/errors/base/base
+- github.com/driftappdev/libpackage/filemods/core/errors/code/code
+  source: core/errors/code/code.go
+  module_dir: file_modules/core/errors/code/code
+- github.com/driftappdev/libpackage/filemods/core/errors/errors/errors
+  source: core/errors/errors/errors.go
+  module_dir: file_modules/core/errors/errors/errors
+- github.com/driftappdev/libpackage/filemods/core/errors/wrap/wrap
+  source: core/errors/wrap/wrap.go
+  module_dir: file_modules/core/errors/wrap/wrap
+- github.com/driftappdev/libpackage/filemods/core/logger/advanced/advanced
+  source: core/logger/advanced/advanced.go
+  module_dir: file_modules/core/logger/advanced/advanced
+- github.com/driftappdev/libpackage/filemods/core/logger/field/field
+  source: core/logger/field/field.go
+  module_dir: file_modules/core/logger/field/field
+- github.com/driftappdev/libpackage/filemods/core/logger/logger/logger
+  source: core/logger/logger/logger.go
+  module_dir: file_modules/core/logger/logger/logger
+- github.com/driftappdev/libpackage/filemods/core/logger/options/options
+  source: core/logger/options/options.go
+  module_dir: file_modules/core/logger/options/options
+- github.com/driftappdev/libpackage/filemods/core/result/result/result
+  source: core/result/result/result.go
+  module_dir: file_modules/core/result/result/result
+- github.com/driftappdev/libpackage/filemods/core/types/nullable/nullable
+  source: core/types/nullable/nullable.go
+  module_dir: file_modules/core/types/nullable/nullable
+- github.com/driftappdev/libpackage/filemods/core/types/types/types
+  source: core/types/types/types.go
+  module_dir: file_modules/core/types/types/types
+- github.com/driftappdev/libpackage/filemods/core/utils/pointer/pointer
+  source: core/utils/pointer/pointer.go
+  module_dir: file_modules/core/utils/pointer/pointer
+- github.com/driftappdev/libpackage/filemods/core/utils/slice/slice
+  source: core/utils/slice/slice.go
+  module_dir: file_modules/core/utils/slice/slice
+- github.com/driftappdev/libpackage/filemods/core/utils/string/string
+  source: core/utils/string/string.go
+  module_dir: file_modules/core/utils/string/string
+- github.com/driftappdev/libpackage/filemods/core/utils/time/time
+  source: core/utils/time/time.go
+  module_dir: file_modules/core/utils/time/time
+- github.com/driftappdev/libpackage/filemods/core/utils/utils/utils
+  source: core/utils/utils/utils.go
+  module_dir: file_modules/core/utils/utils/utils
+- github.com/driftappdev/libpackage/filemods/di/container/container/container
+  source: di/container/container/container.go
+  module_dir: file_modules/di/container/container/container
+- github.com/driftappdev/libpackage/filemods/di/module/module/module
+  source: di/module/module/module.go
+  module_dir: file_modules/di/module/module/module
+- github.com/driftappdev/libpackage/filemods/di/provider/provider/provider
+  source: di/provider/provider/provider.go
+  module_dir: file_modules/di/provider/provider/provider
+- github.com/driftappdev/libpackage/filemods/di/registry/registry/registry
+  source: di/registry/registry/registry.go
+  module_dir: file_modules/di/registry/registry/registry
+- github.com/driftappdev/libpackage/filemods/di/scope/scope/scope
+  source: di/scope/scope/scope.go
+  module_dir: file_modules/di/scope/scope/scope
+- github.com/driftappdev/libpackage/filemods/docs/examples/http/main/main
+  source: docs/examples/http/main/main.go
+  module_dir: file_modules/docs/examples/http/main/main
+- github.com/driftappdev/libpackage/filemods/eventbus/codec/codec
+  source: eventbus/codec/codec.go
+  module_dir: file_modules/eventbus/codec/codec
+- github.com/driftappdev/libpackage/filemods/eventbus/deadletter/dlq/dlq
+  source: eventbus/deadletter/dlq/dlq.go
+  module_dir: file_modules/eventbus/deadletter/dlq/dlq
+- github.com/driftappdev/libpackage/filemods/eventbus/envelope/envelope
+  source: eventbus/envelope/envelope.go
+  module_dir: file_modules/eventbus/envelope/envelope
+- github.com/driftappdev/libpackage/filemods/eventbus/envelope/envelope/envelope
+  source: eventbus/envelope/envelope/envelope.go
+  module_dir: file_modules/eventbus/envelope/envelope/envelope
+- github.com/driftappdev/libpackage/filemods/eventbus/headers/headers
+  source: eventbus/headers/headers.go
+  module_dir: file_modules/eventbus/headers/headers
+- github.com/driftappdev/libpackage/filemods/eventbus/headers/headers/headers
+  source: eventbus/headers/headers/headers.go
+  module_dir: file_modules/eventbus/headers/headers/headers
+- github.com/driftappdev/libpackage/filemods/eventbus/idempotency/store/store
+  source: eventbus/idempotency/store/store.go
+  module_dir: file_modules/eventbus/idempotency/store/store
+- github.com/driftappdev/libpackage/filemods/eventbus/publisher/publisher
+  source: eventbus/publisher/publisher.go
+  module_dir: file_modules/eventbus/publisher/publisher
+- github.com/driftappdev/libpackage/filemods/eventbus/publisher/publisher/publisher
+  source: eventbus/publisher/publisher/publisher.go
+  module_dir: file_modules/eventbus/publisher/publisher/publisher
+- github.com/driftappdev/libpackage/filemods/eventbus/registry/registry/registry
+  source: eventbus/registry/registry/registry.go
+  module_dir: file_modules/eventbus/registry/registry/registry
+- github.com/driftappdev/libpackage/filemods/eventbus/retry/retry/retry
+  source: eventbus/retry/retry/retry.go
+  module_dir: file_modules/eventbus/retry/retry/retry
+- github.com/driftappdev/libpackage/filemods/eventbus/serializer/serializer/serializer
+  source: eventbus/serializer/serializer/serializer.go
+  module_dir: file_modules/eventbus/serializer/serializer/serializer
+- github.com/driftappdev/libpackage/filemods/eventbus/subscriber/subscriber
+  source: eventbus/subscriber/subscriber.go
+  module_dir: file_modules/eventbus/subscriber/subscriber
+- github.com/driftappdev/libpackage/filemods/eventbus/subscriber/subscriber/subscriber
+  source: eventbus/subscriber/subscriber/subscriber.go
+  module_dir: file_modules/eventbus/subscriber/subscriber/subscriber
+- github.com/driftappdev/libpackage/filemods/featureflag/cache/cache/cache
+  source: featureflag/cache/cache/cache.go
+  module_dir: file_modules/featureflag/cache/cache/cache
+- github.com/driftappdev/libpackage/filemods/featureflag/client/client/client
+  source: featureflag/client/client/client.go
+  module_dir: file_modules/featureflag/client/client/client
+- github.com/driftappdev/libpackage/filemods/featureflag/client/memory/memory
+  source: featureflag/client/memory/memory.go
+  module_dir: file_modules/featureflag/client/memory/memory
+- github.com/driftappdev/libpackage/filemods/featureflag/evaluator/advanced/advanced
+  source: featureflag/evaluator/advanced/advanced.go
+  module_dir: file_modules/featureflag/evaluator/advanced/advanced
+- github.com/driftappdev/libpackage/filemods/featureflag/evaluator/evaluator/evaluator
+  source: featureflag/evaluator/evaluator/evaluator.go
+  module_dir: file_modules/featureflag/evaluator/evaluator/evaluator
+- github.com/driftappdev/libpackage/filemods/featureflag/provider/file/file
+  source: featureflag/provider/file/file.go
+  module_dir: file_modules/featureflag/provider/file/file
+- github.com/driftappdev/libpackage/filemods/featureflag/provider/memory/memory
+  source: featureflag/provider/memory/memory.go
+  module_dir: file_modules/featureflag/provider/memory/memory
+- github.com/driftappdev/libpackage/filemods/featureflag/provider/redis/redis
+  source: featureflag/provider/redis/redis.go
+  module_dir: file_modules/featureflag/provider/redis/redis
+- github.com/driftappdev/libpackage/filemods/featureflag/types/flag/flag
+  source: featureflag/types/flag/flag.go
+  module_dir: file_modules/featureflag/types/flag/flag
+- github.com/driftappdev/libpackage/filemods/featureflag/types/rule/rule
+  source: featureflag/types/rule/rule.go
+  module_dir: file_modules/featureflag/types/rule/rule
+- github.com/driftappdev/libpackage/filemods/featureflag/types/target/target
+  source: featureflag/types/target/target.go
+  module_dir: file_modules/featureflag/types/target/target
+- github.com/driftappdev/libpackage/filemods/featureflag/types/variant/variant
+  source: featureflag/types/variant/variant.go
+  module_dir: file_modules/featureflag/types/variant/variant
+- github.com/driftappdev/libpackage/filemods/infra/backoff/backoff/backoff
+  source: infra/backoff/backoff/backoff.go
+  module_dir: file_modules/infra/backoff/backoff/backoff
+- github.com/driftappdev/libpackage/filemods/infra/bulkhead/bulkhead/bulkhead
+  source: infra/bulkhead/bulkhead/bulkhead.go
+  module_dir: file_modules/infra/bulkhead/bulkhead/bulkhead
+- github.com/driftappdev/libpackage/filemods/infra/cache/cache/cache
+  source: infra/cache/cache/cache.go
+  module_dir: file_modules/infra/cache/cache/cache
+- github.com/driftappdev/libpackage/filemods/infra/circuit/breaker/breaker
+  source: infra/circuit/breaker/breaker.go
+  module_dir: file_modules/infra/circuit/breaker/breaker
+- github.com/driftappdev/libpackage/filemods/infra/clock/clock/clock
+  source: infra/clock/clock/clock.go
+  module_dir: file_modules/infra/clock/clock/clock
+- github.com/driftappdev/libpackage/filemods/infra/retry/policy/policy
+  source: infra/retry/policy/policy.go
+  module_dir: file_modules/infra/retry/policy/policy
+- github.com/driftappdev/libpackage/filemods/infra/retry/retry/retry
+  source: infra/retry/retry/retry.go
+  module_dir: file_modules/infra/retry/retry/retry
+- github.com/driftappdev/libpackage/filemods/middleware/adminshield/admin-middleware/admin-middleware
+  source: middleware/adminshield/admin-middleware/admin.middleware.go
+  module_dir: file_modules/middleware/adminshield/admin-middleware/admin-middleware
+- github.com/driftappdev/libpackage/filemods/middleware/auth/auth-middleware/auth-middleware
+  source: middleware/auth/auth-middleware/auth.middleware.go
+  module_dir: file_modules/middleware/auth/auth-middleware/auth-middleware
+- github.com/driftappdev/libpackage/filemods/middleware/auth/gin/gin
+  source: middleware/auth/gin/gin.go
+  module_dir: file_modules/middleware/auth/gin/gin
+- github.com/driftappdev/libpackage/filemods/middleware/auth/grpc/grpc
+  source: middleware/auth/grpc/grpc.go
+  module_dir: file_modules/middleware/auth/grpc/grpc
+- github.com/driftappdev/libpackage/filemods/middleware/cors/cors/cors
+  source: middleware/cors/cors/cors.go
+  module_dir: file_modules/middleware/cors/cors/cors
+- github.com/driftappdev/libpackage/filemods/middleware/cors/gin/gin
+  source: middleware/cors/gin/gin.go
+  module_dir: file_modules/middleware/cors/gin/gin
+- github.com/driftappdev/libpackage/filemods/middleware/logging/gin/gin
+  source: middleware/logging/gin/gin.go
+  module_dir: file_modules/middleware/logging/gin/gin
+- github.com/driftappdev/libpackage/filemods/middleware/logging/grpc/grpc
+  source: middleware/logging/grpc/grpc.go
+  module_dir: file_modules/middleware/logging/grpc/grpc
+- github.com/driftappdev/libpackage/filemods/middleware/logmid/logging-middleware/logging-middleware
+  source: middleware/logmid/logging-middleware/logging.middleware.go
+  module_dir: file_modules/middleware/logmid/logging-middleware/logging-middleware
+- github.com/driftappdev/libpackage/filemods/middleware/ratelimit/extractor/extractor
+  source: middleware/ratelimit/extractor/extractor.go
+  module_dir: file_modules/middleware/ratelimit/extractor/extractor
+- github.com/driftappdev/libpackage/filemods/middleware/ratelimit/gin/gin
+  source: middleware/ratelimit/gin/gin.go
+  module_dir: file_modules/middleware/ratelimit/gin/gin
+- github.com/driftappdev/libpackage/filemods/middleware/ratelimit/grpc/grpc
+  source: middleware/ratelimit/grpc/grpc.go
+  module_dir: file_modules/middleware/ratelimit/grpc/grpc
+- github.com/driftappdev/libpackage/filemods/middleware/ratelimit/headers/headers
+  source: middleware/ratelimit/headers/headers.go
+  module_dir: file_modules/middleware/ratelimit/headers/headers
+- github.com/driftappdev/libpackage/filemods/middleware/ratelimit/ratelimit-middleware/ratelimit-middleware
+  source: middleware/ratelimit/ratelimit-middleware/rateLimit.middleware.go
+  module_dir: file_modules/middleware/ratelimit/ratelimit-middleware/ratelimit-middleware
+- github.com/driftappdev/libpackage/filemods/middleware/recovery/gin/gin
+  source: middleware/recovery/gin/gin.go
+  module_dir: file_modules/middleware/recovery/gin/gin
+- github.com/driftappdev/libpackage/filemods/middleware/recovery/grpc/grpc
+  source: middleware/recovery/grpc/grpc.go
+  module_dir: file_modules/middleware/recovery/grpc/grpc
+- github.com/driftappdev/libpackage/filemods/middleware/recovery/recovery/recovery
+  source: middleware/recovery/recovery/recovery.go
+  module_dir: file_modules/middleware/recovery/recovery/recovery
+- github.com/driftappdev/libpackage/filemods/middleware/requestid/gin/gin
+  source: middleware/requestid/gin/gin.go
+  module_dir: file_modules/middleware/requestid/gin/gin
+- github.com/driftappdev/libpackage/filemods/middleware/requestid/grpc/grpc
+  source: middleware/requestid/grpc/grpc.go
+  module_dir: file_modules/middleware/requestid/grpc/grpc
+- github.com/driftappdev/libpackage/filemods/middleware/requestid/requestid/requestid
+  source: middleware/requestid/requestid/requestid.go
+  module_dir: file_modules/middleware/requestid/requestid/requestid
+- github.com/driftappdev/libpackage/filemods/middleware/timeout/gin/gin
+  source: middleware/timeout/gin/gin.go
+  module_dir: file_modules/middleware/timeout/gin/gin
+- github.com/driftappdev/libpackage/filemods/middleware/timeout/grpc/grpc
+  source: middleware/timeout/grpc/grpc.go
+  module_dir: file_modules/middleware/timeout/grpc/grpc
+- github.com/driftappdev/libpackage/filemods/middleware/timeout/timeout/timeout
+  source: middleware/timeout/timeout/timeout.go
+  module_dir: file_modules/middleware/timeout/timeout/timeout
+- github.com/driftappdev/libpackage/filemods/middleware/tracing/gin/gin
+  source: middleware/tracing/gin/gin.go
+  module_dir: file_modules/middleware/tracing/gin/gin
+- github.com/driftappdev/libpackage/filemods/middleware/tracing/grpc/grpc
+  source: middleware/tracing/grpc/grpc.go
+  module_dir: file_modules/middleware/tracing/grpc/grpc
+- github.com/driftappdev/libpackage/filemods/observability/correlation/correlation/correlation
+  source: observability/correlation/correlation/correlation.go
+  module_dir: file_modules/observability/correlation/correlation/correlation
+- github.com/driftappdev/libpackage/filemods/observability/healthcheck/healthcheck/healthcheck
+  source: observability/healthcheck/healthcheck/healthcheck.go
+  module_dir: file_modules/observability/healthcheck/healthcheck/healthcheck
+- github.com/driftappdev/libpackage/filemods/observability/healthcheck/liveness/liveness
+  source: observability/healthcheck/liveness/liveness.go
+  module_dir: file_modules/observability/healthcheck/liveness/liveness
+- github.com/driftappdev/libpackage/filemods/observability/healthcheck/readiness/readiness
+  source: observability/healthcheck/readiness/readiness.go
+  module_dir: file_modules/observability/healthcheck/readiness/readiness
+- github.com/driftappdev/libpackage/filemods/observability/logging/context/context
+  source: observability/logging/context/context.go
+  module_dir: file_modules/observability/logging/context/context
+- github.com/driftappdev/libpackage/filemods/observability/logging/fields/fields
+  source: observability/logging/fields/fields.go
+  module_dir: file_modules/observability/logging/fields/fields
+- github.com/driftappdev/libpackage/filemods/observability/logging/logging/logging
+  source: observability/logging/logging/logging.go
+  module_dir: file_modules/observability/logging/logging/logging
+- github.com/driftappdev/libpackage/filemods/observability/metrics/metrics/metrics
+  source: observability/metrics/metrics/metrics.go
+  module_dir: file_modules/observability/metrics/metrics/metrics
+- github.com/driftappdev/libpackage/filemods/observability/metrics/registry/registry
+  source: observability/metrics/registry/registry.go
+  module_dir: file_modules/observability/metrics/registry/registry
+- github.com/driftappdev/libpackage/filemods/observability/profiler/pprof/pprof
+  source: observability/profiler/pprof/pprof.go
+  module_dir: file_modules/observability/profiler/pprof/pprof
+- github.com/driftappdev/libpackage/filemods/observability/profiler/profiler/profiler
+  source: observability/profiler/profiler/profiler.go
+  module_dir: file_modules/observability/profiler/profiler/profiler
+- github.com/driftappdev/libpackage/filemods/observability/span/span/span
+  source: observability/span/span/span.go
+  module_dir: file_modules/observability/span/span/span
+- github.com/driftappdev/libpackage/filemods/observability/trace/trace/trace
+  source: observability/trace/trace/trace.go
+  module_dir: file_modules/observability/trace/trace/trace
+- github.com/driftappdev/libpackage/filemods/observability/tracing/propagator/propagator
+  source: observability/tracing/propagator/propagator.go
+  module_dir: file_modules/observability/tracing/propagator/propagator
+- github.com/driftappdev/libpackage/filemods/observability/tracing/sampler/sampler
+  source: observability/tracing/sampler/sampler.go
+  module_dir: file_modules/observability/tracing/sampler/sampler
+- github.com/driftappdev/libpackage/filemods/observability/tracing/tracing/tracing
+  source: observability/tracing/tracing/tracing.go
+  module_dir: file_modules/observability/tracing/tracing/tracing
+- github.com/driftappdev/libpackage/filemods/platform/client/client/client
+  source: platform/client/client/client.go
+  module_dir: file_modules/platform/client/client/client
+- github.com/driftappdev/libpackage/filemods/platform/container/container/container
+  source: platform/container/container/container.go
+  module_dir: file_modules/platform/container/container/container
+- github.com/driftappdev/libpackage/filemods/platform/evaluator/evaluator/evaluator
+  source: platform/evaluator/evaluator/evaluator.go
+  module_dir: file_modules/platform/evaluator/evaluator/evaluator
+- github.com/driftappdev/libpackage/filemods/platform/hooks/hooks/hooks
+  source: platform/hooks/hooks/hooks.go
+  module_dir: file_modules/platform/hooks/hooks/hooks
+- github.com/driftappdev/libpackage/filemods/platform/loader/loader/loader
+  source: platform/loader/loader/loader.go
+  module_dir: file_modules/platform/loader/loader/loader
+- github.com/driftappdev/libpackage/filemods/platform/provider/provider/provider
+  source: platform/provider/provider/provider.go
+  module_dir: file_modules/platform/provider/provider/provider
+- github.com/driftappdev/libpackage/filemods/platform/registry/registry/registry
+  source: platform/registry/registry/registry.go
+  module_dir: file_modules/platform/registry/registry/registry
+- github.com/driftappdev/libpackage/filemods/platform/versioning/versioning/versioning
+  source: platform/versioning/versioning/versioning.go
+  module_dir: file_modules/platform/versioning/versioning/versioning
+- github.com/driftappdev/libpackage/filemods/plugins/hooks/hooks/hooks
+  source: plugins/hooks/hooks/hooks.go
+  module_dir: file_modules/plugins/hooks/hooks/hooks
+- github.com/driftappdev/libpackage/filemods/plugins/loader/loader/loader
+  source: plugins/loader/loader/loader.go
+  module_dir: file_modules/plugins/loader/loader/loader
+- github.com/driftappdev/libpackage/filemods/plugins/manifest/manifest/manifest
+  source: plugins/manifest/manifest/manifest.go
+  module_dir: file_modules/plugins/manifest/manifest/manifest
+- github.com/driftappdev/libpackage/filemods/plugins/registry/registry/registry
+  source: plugins/registry/registry/registry.go
+  module_dir: file_modules/plugins/registry/registry/registry
+- github.com/driftappdev/libpackage/filemods/ratelimit/errors/errors
+  source: ratelimit/errors/errors.go
+  module_dir: file_modules/ratelimit/errors/errors
+- github.com/driftappdev/libpackage/filemods/ratelimit/key/key
+  source: ratelimit/key/key.go
+  module_dir: file_modules/ratelimit/key/key
+- github.com/driftappdev/libpackage/filemods/ratelimit/limiter/limiter
+  source: ratelimit/limiter/limiter.go
+  module_dir: file_modules/ratelimit/limiter/limiter
+- github.com/driftappdev/libpackage/filemods/ratelimit/lua/lua
+  source: ratelimit/lua/lua.go
+  module_dir: file_modules/ratelimit/lua/lua
+- github.com/driftappdev/libpackage/filemods/ratelimit/memory_store/memory_store
+  source: ratelimit/memory_store/memory_store.go
+  module_dir: file_modules/ratelimit/memory_store/memory_store
+- github.com/driftappdev/libpackage/filemods/ratelimit/options/options
+  source: ratelimit/options/options.go
+  module_dir: file_modules/ratelimit/options/options
+- github.com/driftappdev/libpackage/filemods/ratelimit/policy/policy
+  source: ratelimit/policy/policy.go
+  module_dir: file_modules/ratelimit/policy/policy
+- github.com/driftappdev/libpackage/filemods/ratelimit/redis_store/redis_store
+  source: ratelimit/redis_store/redis_store.go
+  module_dir: file_modules/ratelimit/redis_store/redis_store
+- github.com/driftappdev/libpackage/filemods/ratelimit/result/result
+  source: ratelimit/result/result.go
+  module_dir: file_modules/ratelimit/result/result
+- github.com/driftappdev/libpackage/filemods/resilience/cache/cache/cache
+  source: resilience/cache/cache/cache.go
+  module_dir: file_modules/resilience/cache/cache/cache
+- github.com/driftappdev/libpackage/filemods/resilience/circuit/circuitbreaker/circuitbreaker
+  source: resilience/circuit/circuitbreaker/circuitBreaker.go
+  module_dir: file_modules/resilience/circuit/circuitbreaker/circuitbreaker
+- github.com/driftappdev/libpackage/filemods/resilience/pagination/pagination/pagination
+  source: resilience/pagination/pagination/pagination.go
+  module_dir: file_modules/resilience/pagination/pagination/pagination
+- github.com/driftappdev/libpackage/filemods/resilience/retry/retry/retry
+  source: resilience/retry/retry/retry.go
+  module_dir: file_modules/resilience/retry/retry/retry
+- github.com/driftappdev/libpackage/filemods/resilience/sanitizer/sanitizer/sanitizer
+  source: resilience/sanitizer/sanitizer/sanitizer.go
+  module_dir: file_modules/resilience/sanitizer/sanitizer/sanitizer
+- github.com/driftappdev/libpackage/filemods/resilience/schema/schema/schema
+  source: resilience/schema/schema/schema.go
+  module_dir: file_modules/resilience/schema/schema/schema
+- github.com/driftappdev/libpackage/filemods/resilience/serializer/serializer/serializer
+  source: resilience/serializer/serializer/serializer.go
+  module_dir: file_modules/resilience/serializer/serializer/serializer
+- github.com/driftappdev/libpackage/filemods/resilience/validate/validate/validate
+  source: resilience/validate/validate/validate.go
+  module_dir: file_modules/resilience/validate/validate/validate
+- github.com/driftappdev/libpackage/filemods/resilience/validator/validator/validator
+  source: resilience/validator/validator/validator.go
+  module_dir: file_modules/resilience/validator/validator/validator
+- github.com/driftappdev/libpackage/filemods/runtime/health/checker/checker
+  source: runtime/health/checker/checker.go
+  module_dir: file_modules/runtime/health/checker/checker
+- github.com/driftappdev/libpackage/filemods/runtime/health/health/health
+  source: runtime/health/health/health.go
+  module_dir: file_modules/runtime/health/health/health
+- github.com/driftappdev/libpackage/filemods/runtime/health/server/server
+  source: runtime/health/server/server.go
+  module_dir: file_modules/runtime/health/server/server
+- github.com/driftappdev/libpackage/filemods/runtime/lifecycle/app/app
+  source: runtime/lifecycle/app/app.go
+  module_dir: file_modules/runtime/lifecycle/app/app
+- github.com/driftappdev/libpackage/filemods/runtime/lifecycle/component/component
+  source: runtime/lifecycle/component/component.go
+  module_dir: file_modules/runtime/lifecycle/component/component
+- github.com/driftappdev/libpackage/filemods/runtime/lifecycle/hooks_manager/hooks_manager
+  source: runtime/lifecycle/hooks_manager/hooks_manager.go
+  module_dir: file_modules/runtime/lifecycle/hooks_manager/hooks_manager
+- github.com/driftappdev/libpackage/filemods/runtime/lifecycle/lifecycle/lifecycle
+  source: runtime/lifecycle/lifecycle/lifecycle.go
+  module_dir: file_modules/runtime/lifecycle/lifecycle/lifecycle
+- github.com/driftappdev/libpackage/filemods/runtime/shutdown/hook/hook
+  source: runtime/shutdown/hook/hook.go
+  module_dir: file_modules/runtime/shutdown/hook/hook
+- github.com/driftappdev/libpackage/filemods/runtime/shutdown/manager/manager
+  source: runtime/shutdown/manager/manager.go
+  module_dir: file_modules/runtime/shutdown/manager/manager
+- github.com/driftappdev/libpackage/filemods/runtime/shutdown/shutdown/shutdown
+  source: runtime/shutdown/shutdown/shutdown.go
+  module_dir: file_modules/runtime/shutdown/shutdown/shutdown
+- github.com/driftappdev/libpackage/filemods/runtime/signals/signals/signals
+  source: runtime/signals/signals/signals.go
+  module_dir: file_modules/runtime/signals/signals/signals
+- github.com/driftappdev/libpackage/filemods/security/encryption/encryption/encryption
+  source: security/encryption/encryption/encryption.go
+  module_dir: file_modules/security/encryption/encryption/encryption
+- github.com/driftappdev/libpackage/filemods/security/hash/hash/hash
+  source: security/hash/hash/hash.go
+  module_dir: file_modules/security/hash/hash/hash
+- github.com/driftappdev/libpackage/filemods/security/jwt/advanced/advanced
+  source: security/jwt/advanced/advanced.go
+  module_dir: file_modules/security/jwt/advanced/advanced
+- github.com/driftappdev/libpackage/filemods/security/jwt/jwt/jwt
+  source: security/jwt/jwt/jwt.go
+  module_dir: file_modules/security/jwt/jwt/jwt
+- github.com/driftappdev/libpackage/filemods/security/oauth2/client/client
+  source: security/oauth2/client/client.go
+  module_dir: file_modules/security/oauth2/client/client
+- github.com/driftappdev/libpackage/filemods/security/oauth2/oauth2/oauth2
+  source: security/oauth2/oauth2/oauth2.go
+  module_dir: file_modules/security/oauth2/oauth2/oauth2
+- github.com/driftappdev/libpackage/filemods/security/secrets/provider/provider
+  source: security/secrets/provider/provider.go
+  module_dir: file_modules/security/secrets/provider/provider
+- github.com/driftappdev/libpackage/filemods/telemetry/baggage/baggage/baggage
+  source: telemetry/baggage/baggage/baggage.go
+  module_dir: file_modules/telemetry/baggage/baggage/baggage
+- github.com/driftappdev/libpackage/filemods/telemetry/correlation/context/context
+  source: telemetry/correlation/context/context.go
+  module_dir: file_modules/telemetry/correlation/context/context
+- github.com/driftappdev/libpackage/filemods/telemetry/trace/context/context
+  source: telemetry/trace/context/context.go
+  module_dir: file_modules/telemetry/trace/context/context
+- github.com/driftappdev/libpackage/filemods/telemetry/trace/provider/provider
+  source: telemetry/trace/provider/provider.go
+  module_dir: file_modules/telemetry/trace/provider/provider
+- github.com/driftappdev/libpackage/filemods/telemetry/trace/span/span
+  source: telemetry/trace/span/span.go
+  module_dir: file_modules/telemetry/trace/span/span
+- github.com/driftappdev/libpackage/filemods/telemetry/trace/stdoutexporter/stdoutexporter
+  source: telemetry/trace/stdoutexporter/stdoutexporter.go
+  module_dir: file_modules/telemetry/trace/stdoutexporter/stdoutexporter
+- github.com/driftappdev/libpackage/filemods/testing/fixtures/fixtures/fixtures
+  source: testing/fixtures/fixtures/fixtures.go
+  module_dir: file_modules/testing/fixtures/fixtures/fixtures
+- github.com/driftappdev/libpackage/filemods/testing/mocks/logger/logger
+  source: testing/mocks/logger/logger.go
+  module_dir: file_modules/testing/mocks/logger/logger
+- github.com/driftappdev/libpackage/filemods/testing/testutil/context/context
+  source: testing/testutil/context/context.go
+  module_dir: file_modules/testing/testutil/context/context
+- github.com/driftappdev/libpackage/filemods/validator/binding/grpc/grpc
+  source: validator/binding/grpc/grpc.go
+  module_dir: file_modules/validator/binding/grpc/grpc
+- github.com/driftappdev/libpackage/filemods/validator/binding/http/http
+  source: validator/binding/http/http.go
+  module_dir: file_modules/validator/binding/http/http
+- github.com/driftappdev/libpackage/filemods/validator/schema/engine/engine
+  source: validator/schema/engine/engine.go
+  module_dir: file_modules/validator/schema/engine/engine
+- github.com/driftappdev/libpackage/filemods/validator/schema/errors/errors
+  source: validator/schema/errors/errors.go
+  module_dir: file_modules/validator/schema/errors/errors
+- github.com/driftappdev/libpackage/filemods/validator/schema/rules/rules
+  source: validator/schema/rules/rules.go
+  module_dir: file_modules/validator/schema/rules/rules
