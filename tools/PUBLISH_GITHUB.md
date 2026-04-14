@@ -46,3 +46,27 @@ Use commands in `INSTALL_MODULES.md`, for example:
 ```bash
 go get github.com/driftappdev/libpackage/core/result@latest
 ```
+
+## One-command release (bump + tag + push)
+
+Use this when you want one command to bump versions, create tags, and push.
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\release-modules.ps1 -Scope all -Bump patch
+```
+
+Common examples:
+
+```powershell
+# bump all standard modules only
+powershell -ExecutionPolicy Bypass -File .\tools\release-modules.ps1 -Scope standard -Bump minor
+
+# bump only file-level modules
+powershell -ExecutionPolicy Bypass -File .\tools\release-modules.ps1 -Scope filemods -Bump patch
+
+# set explicit version for selected scope
+powershell -ExecutionPolicy Bypass -File .\tools\release-modules.ps1 -Scope all -Version v1.0.0
+
+# safe preview (no write/commit/push)
+powershell -ExecutionPolicy Bypass -File .\tools\release-modules.ps1 -Scope all -Bump patch -DryRun
+```
