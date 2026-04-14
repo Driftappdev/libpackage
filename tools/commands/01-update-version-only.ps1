@@ -11,12 +11,18 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repoRoot = (Resolve-Path (Join-Path $scriptDir "..\..")).Path
 Set-Location $repoRoot
 
-powershell -ExecutionPolicy Bypass -File ".\tools\release-modules.ps1" `
-  -Scope $Scope `
-  -Bump $Bump `
-  -Version $Version `
-  -NoTagCreate `
-  -NoCommit `
-  -NoPush `
-  -NoTagPush
+$args = @(
+    "-ExecutionPolicy", "Bypass",
+    "-File", ".\tools\release-modules.ps1",
+    "-Scope", $Scope,
+    "-Bump", $Bump,
+    "-NoTagCreate",
+    "-NoCommit",
+    "-NoPush",
+    "-NoTagPush"
+)
+if (-not [string]::IsNullOrWhiteSpace($Version)) {
+    $args += @("-Version", $Version)
+}
 
+powershell @args
