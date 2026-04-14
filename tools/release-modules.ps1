@@ -7,6 +7,7 @@ param(
     [string]$CommitMessage = "chore(release): bump module versions and tags",
     [switch]$NoCommit,
     [switch]$NoPush,
+    [switch]$NoTagCreate,
     [switch]$NoTagPush,
     [switch]$DryRun
 )
@@ -190,26 +191,30 @@ if (-not $DryRun) {
 }
 
 $tagCount = 0
-foreach ($m in $selected) {
-    $v = if (Is-FileMod $m.ModulePath) { [string]$fileVersions[$m.ModulePath] } else { [string]$standardVersions[$m.ModulePath] }
-    if ($v -notmatch '^v\d+\.\d+\.\d+(-[0-9A-Za-z.-]+)?$') {
-        throw "Invalid semver for $($m.ModulePath): $v"
-    }
+if (-not $NoTagCreate) {
+    foreach ($m in $selected) {
+        $v = if (Is-FileMod $m.ModulePath) { [string]$fileVersions[$m.ModulePath] } else { [string]$standardVersions[$m.ModulePath] }
+        if ($v -notmatch '^v\d+\.\d+\.\d+(-[0-9A-Za-z.-]+)?$') {
+            throw "Invalid semver for $($m.ModulePath): $v"
+        }
 
-    $tag = if ($m.RelDir -eq ".") { $v } else { "$($m.RelDir)/$v" }
+        $tag = if ($m.RelDir -eq ".") { $v } else { "$($m.RelDir)/$v" }
 
-    $existsLocal = $false
-    if (-not $DryRun) {
-        git rev-parse -q --verify "refs/tags/$tag" *> $null
-        $existsLocal = ($LASTEXITCODE -eq 0)
-    }
+        $existsLocal = $false
+        if (-not $DryRun) {
+            git rev-parse -q --verify "refs/tags/$tag" *> $null
+            $existsLocal = ($LASTEXITCODE -eq 0)
+        }
 
-    if (-not $existsLocal) {
-        Run "git tag $tag"
-        $tagCount++
-    } else {
-        Write-Host "Tag exists (skip): $tag"
+        if (-not $existsLocal) {
+            Run "git tag $tag"
+            $tagCount++
+        } else {
+            Write-Host "Tag exists (skip): $tag"
+        }
     }
+} else {
+    Write-Host "Skip tag creation (-NoTagCreate)."
 }
 
 if (-not $NoCommit) {
@@ -235,7 +240,7 @@ if (-not $NoPush) {
     Run "git push origin $Branch"
 }
 
-if (-not $NoTagPush) {
+if ((-not $NoTagPush) -and (-not $NoTagCreate)) {
     Run "git push --tags"
 }
 
