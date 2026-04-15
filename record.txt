@@ -1,0 +1,174 @@
+library
+
+📦 Core utilities
+
+logger
+BaseError
+retry
+timeout
+circuit breaker
+cache
+sanitizer
+validator
+pagination
+
+
+📦 Observability
+metrics
+tracing
+
+
+📦 Middleware (กลาง)
+logging middleware
+auth middleware (JWT)
+rate limit middleware
+recovery middleware
+
+
+/core
+
+  logger //
+
+  errors //
+
+  constants
+
+  context
+
+  result 
+
+  types
+
+  utils
+
+
+
+/ Infra
+
+  circuit
+
+
+/observability
+
+  metrics //
+
+  tracing
+
+  logging
+
+  healthcheck
+
+  profiler
+
+
+/middleware
+
+  auth
+
+  logging //
+
+  recovery
+
+  timeout //
+
+  ratelimit //
+
+  requestid
+
+  tracing //
+
+  cors
+
+
+/runtime
+
+  health
+
+  shutdown
+
+  lifecycle
+
+  signals
+
+
+/security
+
+  jwt
+
+  oauth2
+
+  encryption
+
+  hash
+
+
+/validator
+
+  schema (engine) 
+
+
+/eventbus
+
+  serializer //
+
+  registry
+
+  retry //
+
+
+/telemetry
+
+  trace
+
+  span
+
+  correlation
+
+
+/featureflag
+
+  client
+
+  evaluator
+
+
+/di
+
+  container
+
+  registry
+
+  provider
+
+
+/contracts
+
+  errors
+
+  versioning
+
+
+
+/plugins
+
+  registry
+
+  loader
+
+  hooks
+
+
+
+/docs
+
+  usage
+
+  examples
+
+  architecture
+
+
+
+
+
+

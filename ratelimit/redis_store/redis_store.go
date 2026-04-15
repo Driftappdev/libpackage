@@ -1,0 +1,351 @@
+package ratelimit
+
+import (
+	"context"
+	"errors"
+	"fmt"
+	"strconv"
+	"time"
+)
+
+var (
+	ErrRedisExecutorNil = errors.New("redis executor is nil")
+	ErrStoreFailure     = errors.New("store failure")
+)
+
+type ErrorCode string
+
+const CodeStoreFailure ErrorCode = "STORE_FAILURE"
+
+type Strategy string
+
+const (
+	StrategyFixedWindow   Strategy = "fixed_window"
+	StrategySlidingWindow Strategy = "sliding_window"
+	StrategyTokenBucket   Strategy = "token_bucket"
+)
+
+type Policy struct {
+	Name                string
+	Limit               int64
+	Window              time.Duration
+	Strategy            Strategy
+	Cost                int64
+	Burst               int64
+	RefillRatePerSecond float64
+}
+
+func (p Policy) Normalize() Policy {
+	if p.Name == "" {
+		p.Name = "default"
+	}
+	if p.Limit <= 0 {
+		p.Limit = 100
+	}
+	if p.Window <= 0 {
+		p.Window = time.Minute
+	}
+	if p.Strategy == "" {
+		p.Strategy = StrategyFixedWindow
+	}
+	if p.Cost <= 0 {
+		p.Cost = 1
+	}
+	if p.Burst <= 0 {
+		p.Burst = p.Limit
+	}
+	if p.RefillRatePerSecond <= 0 {
+		p.RefillRatePerSecond = float64(p.Limit) / p.Window.Seconds()
+	}
+	return p
+}
+
+type StoreRequest struct {
+	Key    string
+	Policy Policy
+	Now    time.Time
+}
+
+type StoreResponse struct {
+	Used      int64
+	Limit     int64
+	Remaining int64
+	ResetAt   time.Time
+	Allowed   bool
+	Metadata  map[string]string
+}
+
+type RedisExecutor interface {
+	// Eval executes a Lua script with keys and args and returns script result.
+	Eval(ctx context.Context, script string, keys []string, args ...any) (any, error)
+}
+
+const RedisFixedWindowLua = `
+local current = redis.call("INCR", KEYS[1])
+if current == 1 then
+  redis.call("PEXPIRE", KEYS[1], ARGV[1])
+end
+local ttl = redis.call("PTTL", KEYS[1])
+return {current, ttl}
+`
+
+const RedisSlidingWindowLua = `
+local now_ms = tonumber(ARGV[1])
+local win_ms = tonumber(ARGV[2])
+local cost = tonumber(ARGV[3])
+local bucket = math.floor(now_ms / win_ms)
+local prev_bucket = bucket - 1
+local cur_key = KEYS[1] .. ":" .. bucket
+local prev_key = KEYS[1] .. ":" .. prev_bucket
+local cur = redis.call("INCRBY", cur_key, cost)
+if cur == cost then
+  redis.call("PEXPIRE", cur_key, win_ms * 2)
+end
+local prev = tonumber(redis.call("GET", prev_key) or "0")
+local elapsed = now_ms - (bucket * win_ms)
+local weight = (win_ms - elapsed) / win_ms
+if weight < 0 then weight = 0 end
+local estimated = cur + (prev * weight)
+local ttl = redis.call("PTTL", cur_key)
+return {estimated, ttl}
+`
+
+const RedisTokenBucketLua = `
+local capacity = tonumber(ARGV[1])
+local refill_per_sec = tonumber(ARGV[2])
+local now_ms = tonumber(ARGV[3])
+local cost = tonumber(ARGV[4])
+local state = redis.call("HMGET", KEYS[1], "tokens", "ts")
+local tokens = tonumber(state[1])
+local ts = tonumber(state[2])
+if tokens == nil then tokens = capacity end
+if ts == nil then ts = now_ms end
+local delta_sec = (now_ms - ts) / 1000.0
+if delta_sec < 0 then delta_sec = 0 end
+tokens = math.min(capacity, tokens + (delta_sec * refill_per_sec))
+local allowed = 0
+if tokens >= cost then
+  tokens = tokens - cost
+  allowed = 1
+end
+redis.call("HMSET", KEYS[1], "tokens", tokens, "ts", now_ms)
+local ttl = math.ceil((capacity / refill_per_sec) * 1000)
+if ttl < 1000 then ttl = 1000 end
+redis.call("PEXPIRE", KEYS[1], ttl)
+return {allowed, tokens, ttl}
+`
+
+func LuaScriptForStrategy(strategy Strategy) string {
+	switch strategy {
+	case StrategySlidingWindow:
+		return RedisSlidingWindowLua
+	case StrategyTokenBucket:
+		return RedisTokenBucketLua
+	default:
+		return RedisFixedWindowLua
+	}
+}
+
+type RedisStore struct {
+	exec   RedisExecutor
+	prefix string
+}
+
+func NewRedisStore(exec RedisExecutor, prefix string) *RedisStore {
+	if prefix == "" {
+		prefix = "rl"
+	}
+	return &RedisStore{exec: exec, prefix: prefix}
+}
+
+func (s *RedisStore) key(key string) string {
+	if s.prefix == "" {
+		return key
+	}
+	return s.prefix + ":" + key
+}
+
+func (s *RedisStore) Increment(ctx context.Context, key string, window time.Duration, now time.Time) (int64, time.Time, error) {
+	res, err := s.Eval(ctx, StoreRequest{
+		Key: key,
+		Policy: Policy{
+			Name:     "redis-fixed-window",
+			Limit:    1 << 60,
+			Window:   window,
+			Strategy: StrategyFixedWindow,
+			Cost:     1,
+		},
+		Now: now,
+	})
+	if err != nil {
+		return 0, time.Time{}, err
+	}
+	return res.Used, res.ResetAt, nil
+}
+
+func (s *RedisStore) Eval(ctx context.Context, req StoreRequest) (StoreResponse, error) {
+	if s.exec == nil {
+		return StoreResponse{}, ErrRedisExecutorNil
+	}
+	p := req.Policy.Normalize()
+	now := req.Now
+	if now.IsZero() {
+		now = time.Now()
+	}
+	key := s.key(req.Key)
+	script := LuaScriptForStrategy(p.Strategy)
+
+	switch p.Strategy {
+	case StrategySlidingWindow:
+		raw, err := s.exec.Eval(ctx, script, []string{key}, now.UnixMilli(), p.Window.Milliseconds(), p.Cost)
+		if err != nil {
+			return StoreResponse{}, WrapError(CodeStoreFailure, "redis.eval.sliding", req.Key, p.Name, "eval failed", err)
+		}
+		used, ttlMs, err := parseTwoIntReply(raw)
+		if err != nil {
+			return StoreResponse{}, WrapError(CodeStoreFailure, "redis.parse.sliding", req.Key, p.Name, "parse failed", err)
+		}
+		resetAt := now.Add(time.Duration(ttlMs) * time.Millisecond)
+		remaining := max64(0, p.Limit-used)
+		return StoreResponse{Used: used, Limit: p.Limit, Remaining: remaining, ResetAt: resetAt, Allowed: used <= p.Limit}, nil
+	case StrategyTokenBucket:
+		raw, err := s.exec.Eval(ctx, script, []string{key}, p.Burst, p.RefillRatePerSecond, now.UnixMilli(), p.Cost)
+		if err != nil {
+			return StoreResponse{}, WrapError(CodeStoreFailure, "redis.eval.token", req.Key, p.Name, "eval failed", err)
+		}
+		allowed, tokens, ttlMs, err := parseTokenBucketReply(raw)
+		if err != nil {
+			return StoreResponse{}, WrapError(CodeStoreFailure, "redis.parse.token", req.Key, p.Name, "parse failed", err)
+		}
+		remaining := int64(tokens)
+		if remaining < 0 {
+			remaining = 0
+		}
+		return StoreResponse{
+			Used:      p.Burst - remaining,
+			Limit:     p.Burst,
+			Remaining: remaining,
+			ResetAt:   now.Add(time.Duration(ttlMs) * time.Millisecond),
+			Allowed:   allowed,
+		}, nil
+	default:
+		raw, err := s.exec.Eval(ctx, script, []string{key}, p.Window.Milliseconds())
+		if err != nil {
+			return StoreResponse{}, WrapError(CodeStoreFailure, "redis.eval.fixed", req.Key, p.Name, "eval failed", err)
+		}
+		used, ttlMs, err := parseTwoIntReply(raw)
+		if err != nil {
+			return StoreResponse{}, WrapError(CodeStoreFailure, "redis.parse.fixed", req.Key, p.Name, "parse failed", err)
+		}
+		resetAt := now.Add(time.Duration(ttlMs) * time.Millisecond)
+		remaining := max64(0, p.Limit-used)
+		return StoreResponse{Used: used, Limit: p.Limit, Remaining: remaining, ResetAt: resetAt, Allowed: used <= p.Limit}, nil
+	}
+}
+
+func parseTwoIntReply(raw any) (int64, int64, error) {
+	arr, ok := raw.([]any)
+	if !ok || len(arr) < 2 {
+		return 0, 0, fmt.Errorf("unexpected redis reply: %T", raw)
+	}
+	a, err := toInt64(arr[0])
+	if err != nil {
+		return 0, 0, err
+	}
+	b, err := toInt64(arr[1])
+	if err != nil {
+		return 0, 0, err
+	}
+	return a, b, nil
+}
+
+func parseTokenBucketReply(raw any) (bool, float64, int64, error) {
+	arr, ok := raw.([]any)
+	if !ok || len(arr) < 3 {
+		return false, 0, 0, fmt.Errorf("unexpected token bucket reply: %T", raw)
+	}
+	allowedInt, err := toInt64(arr[0])
+	if err != nil {
+		return false, 0, 0, err
+	}
+	tokens, err := toFloat64(arr[1])
+	if err != nil {
+		return false, 0, 0, err
+	}
+	ttl, err := toInt64(arr[2])
+	if err != nil {
+		return false, 0, 0, err
+	}
+	return allowedInt == 1, tokens, ttl, nil
+}
+
+func toInt64(v any) (int64, error) {
+	switch x := v.(type) {
+	case int:
+		return int64(x), nil
+	case int64:
+		return x, nil
+	case uint64:
+		return int64(x), nil
+	case float64:
+		return int64(x), nil
+	case string:
+		return strconv.ParseInt(x, 10, 64)
+	case []byte:
+		return strconv.ParseInt(string(x), 10, 64)
+	default:
+		return 0, fmt.Errorf("cannot convert %T to int64", v)
+	}
+}
+
+func toFloat64(v any) (float64, error) {
+	switch x := v.(type) {
+	case float64:
+		return x, nil
+	case float32:
+		return float64(x), nil
+	case int64:
+		return float64(x), nil
+	case int:
+		return float64(x), nil
+	case string:
+		return strconv.ParseFloat(x, 64)
+	case []byte:
+		return strconv.ParseFloat(string(x), 64)
+	default:
+		return 0, fmt.Errorf("cannot convert %T to float64", v)
+	}
+}
+
+func max64(a, b int64) int64 {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+type ratelimitError struct {
+	Code    ErrorCode
+	Op      string
+	Key     string
+	Policy  string
+	Message string
+	Cause   error
+}
+
+func (e *ratelimitError) Error() string {
+	return fmt.Sprintf("%s: %s (%s): %v", e.Code, e.Op, e.Key, e.Cause)
+}
+
+func (e *ratelimitError) Unwrap() error { return e.Cause }
+
+func WrapError(code ErrorCode, op, key, policy, msg string, cause error) error {
+	return &ratelimitError{
+		Code:    code,
+		Op:      op,
+		Key:     key,
+		Policy:  policy,
+		Message: msg,
+		Cause:   cause,
+	}
+}

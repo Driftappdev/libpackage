@@ -1,0 +1,12 @@
+# Go
+bin/
+*.test
+*.out
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
