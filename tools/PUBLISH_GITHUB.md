@@ -38,6 +38,9 @@ Optional flags:
 - `-DryRun` : print commands only
 - `-SkipRepoCreate` : use existing repo/remote only
 - `-SkipTagPush` : push branch but do not push tags
+- `-SkipCommit` : do not run `git add/commit` in script
+- `-OnlyPath` : publish tags for selected folders only (example: `persistence,messaging`)
+- `-OnlyModule` : publish tags for selected module path(s) only
 
 ## 4) Install from GitHub
 
@@ -69,4 +72,14 @@ powershell -ExecutionPolicy Bypass -File .\tools\release-modules.ps1 -Scope all 
 
 # safe preview (no write/commit/push)
 powershell -ExecutionPolicy Bypass -File .\tools\release-modules.ps1 -Scope all -Bump patch -DryRun
+```
+
+## Publish only selected folders
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\publish-github.ps1 `
+  -GitHubOwner driftappdev `
+  -RepositoryName libpackage `
+  -OnlyPath persistence,messaging `
+  -SkipRepoCreate
 ```

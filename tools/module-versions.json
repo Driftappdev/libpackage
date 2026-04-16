@@ -1,3 +1,10 @@
 {
-    "github.com/driftappdev/libpackage":  "v0.1.1"
+    "github.com/driftappdev/libpackage":  "v0.1.1",
+    "github.com/driftappdev/libpackage/messaging/dlq":  "v0.1.1",
+    "github.com/driftappdev/libpackage/messaging/inbox":  "v0.1.1",
+    "github.com/driftappdev/libpackage/messaging/outbox":  "v0.1.1",
+    "github.com/driftappdev/libpackage/messaging/redrive":  "v0.1.1",
+    "github.com/driftappdev/libpackage/messaging/replay":  "v0.1.1",
+    "github.com/driftappdev/libpackage/persistence/tx":  "v0.1.1",
+    "github.com/driftappdev/libpackage/persistence/uow":  "v0.1.1"
 }

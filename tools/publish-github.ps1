@@ -5,6 +5,9 @@ param(
     [string]$Branch = "main",
     [string]$CommitMessage = "chore: publish modules",
     [string]$VersionsFile = "tools/module-versions.json",
+    [string[]]$OnlyPath,
+    [string[]]$OnlyModule,
+    [switch]$SkipCommit,
     [switch]$SkipRepoCreate,
     [switch]$SkipTagPush,
     [switch]$DryRun
@@ -23,8 +26,6 @@ function Require-Cmd([string]$name) {
 }
 
 Require-Cmd git
-Require-Cmd gh
-
 function ConvertTo-Hashtable($jsonObject) {
     $table = @{}
     if ($null -eq $jsonObject) { return $table }
@@ -64,6 +65,18 @@ function Get-ModuleItems {
     return @($mods | Sort-Object ModulePath)
 }
 
+function Normalize-PathPrefix([string]$pathPrefix) {
+    if ([string]::IsNullOrWhiteSpace($pathPrefix)) { return $null }
+    $normalized = $pathPrefix.Replace('\', '/').Trim()
+    return $normalized.Trim('/')
+}
+
+function Match-PathPrefix([string]$relDir, [string]$prefix) {
+    if ([string]::IsNullOrWhiteSpace($prefix)) { return $false }
+    if ($relDir -eq $prefix) { return $true }
+    return $relDir.StartsWith("$prefix/")
+}
+
 function Run([string]$cmd) {
     Write-Host "> $cmd"
     if (-not $DryRun) {
@@ -72,11 +85,6 @@ function Run([string]$cmd) {
             throw "Command failed: $cmd"
         }
     }
-}
-
-# Ensure gh auth ready
-if (-not $DryRun) {
-    gh auth status | Out-Null
 }
 
 if (-not (Test-Path ".git")) {
@@ -89,17 +97,20 @@ if ($currentBranch -ne $Branch) {
     Run "git checkout -B $Branch"
 }
 
-# Stage/commit
-Run "git add -A"
-$hasChanges = $true
-if (-not $DryRun) {
-    git diff --cached --quiet
-    $hasChanges = ($LASTEXITCODE -ne 0)
-}
-if ($hasChanges) {
-    Run "git commit -m '$CommitMessage'"
+if (-not $SkipCommit) {
+    Run "git add -A"
+    $hasChanges = $true
+    if (-not $DryRun) {
+        git diff --cached --quiet
+        $hasChanges = ($LASTEXITCODE -ne 0)
+    }
+    if ($hasChanges) {
+        Run "git commit -m '$CommitMessage'"
+    } else {
+        Write-Host "No staged changes to commit."
+    }
 } else {
-    Write-Host "No staged changes to commit."
+    Write-Host "Skip commit (-SkipCommit)."
 }
 
 $repoFull = "$GitHubOwner/$RepositoryName"
@@ -113,6 +124,10 @@ if (-not $DryRun) {
 
 if (-not $originExists) {
     if (-not $SkipRepoCreate) {
+        Require-Cmd gh
+        if (-not $DryRun) {
+            gh auth status | Out-Null
+        }
         Run "gh repo create $repoFull --$Visibility --source . --remote origin --push"
     } else {
         Run "git remote add origin $remoteUrl"
@@ -130,6 +145,43 @@ if (-not (Test-Path $versionsPath)) {
 
 $versions = ConvertTo-Hashtable (Get-Content -Raw -LiteralPath $versionsPath | ConvertFrom-Json)
 $modules = Get-ModuleItems -RepoRoot $repoRoot
+
+if ($OnlyPath -and $OnlyPath.Count -gt 0) {
+    $normalizedPaths = @(
+        $OnlyPath |
+            ForEach-Object { ($_ -split '[,;]') } |
+            ForEach-Object { Normalize-PathPrefix $_ } |
+            Where-Object { -not [string]::IsNullOrWhiteSpace($_) } |
+            Sort-Object -Unique
+    )
+    $modules = @(
+        $modules | Where-Object {
+            $m = $_
+            $matched = $false
+            foreach ($p in $normalizedPaths) {
+                if (Match-PathPrefix -relDir $m.RelDir -prefix $p) {
+                    $matched = $true
+                    break
+                }
+            }
+            $matched
+        }
+    )
+}
+
+if ($OnlyModule -and $OnlyModule.Count -gt 0) {
+    $moduleSet = @{}
+    foreach ($moduleName in $OnlyModule) {
+        if (-not [string]::IsNullOrWhiteSpace($moduleName)) {
+            $moduleSet[$moduleName.Trim()] = $true
+        }
+    }
+    $modules = @($modules | Where-Object { $moduleSet.ContainsKey($_.ModulePath) })
+}
+
+if ($modules.Count -eq 0) {
+    throw "No modules selected for publish. Check -OnlyPath or -OnlyModule filters."
+}
 
 foreach ($m in $modules) {
     if (-not $versions.Contains($m.ModulePath)) {
