@@ -1,3 +1,3 @@
 module github.com/driftappdev/libpackage/resilience/sanitizer
 
-go 1.25
+go 1.23.0
