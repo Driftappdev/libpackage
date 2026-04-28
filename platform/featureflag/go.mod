@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/platform/featureflag
+module github.com/driftappdev/platform/featureflag
 
 go 1.25.0
 

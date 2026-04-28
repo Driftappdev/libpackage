@@ -1,4 +1,4 @@
-﻿package exampleintegration
+package exampleintegration
 
 import (
 	"context"
@@ -10,10 +10,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/platformcore/libpackage/messaging/dlq"
-	"github.com/platformcore/libpackage/messaging/inbox"
-	"github.com/platformcore/libpackage/messaging/outbox"
-	"github.com/platformcore/libpackage/messaging/redrive"
+	"github.com/driftappdev/messaging/dlq"
+	"github.com/driftappdev/messaging/inbox"
+	"github.com/driftappdev/messaging/outbox"
+	"github.com/driftappdev/messaging/redrive"
 )
 
 type SlogAdapter struct{ l *slog.Logger }

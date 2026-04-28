@@ -7,136 +7,136 @@ This repository follows a domain-first Go module layout:
 
 ## Main Modules (With Submodules)
 
-- `github.com/platformcore/libpackage/foundation/client`
-- `github.com/platformcore/libpackage/foundation/contracts`
-- `github.com/platformcore/libpackage/foundation/core`
-- `github.com/platformcore/libpackage/orchestration/di`
-- `github.com/platformcore/libpackage/platform/eventbus`
-- `github.com/platformcore/libpackage/platform/featureflag`
-- `github.com/platformcore/libpackage/infra`
-- `github.com/platformcore/libpackage/observability`
-- `github.com/platformcore/libpackage/platform`
-- `github.com/platformcore/libpackage/plugins`
-- `github.com/platformcore/libpackage/resilience`
-- `github.com/platformcore/libpackage/foundation/runtime`
-- `github.com/platformcore/libpackage/observability/telemetry`
-- `github.com/platformcore/libpackage/testing`
-- `github.com/platformcore/libpackage/foundation/validator`
+- `github.com/driftappdev/foundation/client`
+- `github.com/driftappdev/foundation/contracts`
+- `github.com/driftappdev/foundation/core`
+- `github.com/driftappdev/orchestration/di`
+- `github.com/driftappdev/platform/eventbus`
+- `github.com/driftappdev/platform/featureflag`
+- `github.com/driftappdev/infra`
+- `github.com/driftappdev/observability`
+- `github.com/driftappdev/platform`
+- `github.com/driftappdev/plugins`
+- `github.com/driftappdev/resilience`
+- `github.com/driftappdev/foundation/runtime`
+- `github.com/driftappdev/observability/telemetry`
+- `github.com/driftappdev/testing`
+- `github.com/driftappdev/foundation/validator`
 
 ## Standalone Main Modules (No Submodules)
 
-- `github.com/platformcore/libpackage/foundation/config`
-- `github.com/platformcore/libpackage/docs`
-- `github.com/platformcore/libpackage/compat/goauth`
-- `github.com/platformcore/libpackage/compat/gocircuit`
-- `github.com/platformcore/libpackage/compat/goerror`
-- `github.com/platformcore/libpackage/compat/gologger`
-- `github.com/platformcore/libpackage/compat/gometrics`
-- `github.com/platformcore/libpackage/compat/goratelimit`
-- `github.com/platformcore/libpackage/compat/goretry`
-- `github.com/platformcore/libpackage/compat/gosanitizer`
-- `github.com/platformcore/libpackage/compat/gotimeout`
-- `github.com/platformcore/libpackage/compat/gotracing`
-- `github.com/platformcore/libpackage/logmid/logging-middleware`
-- `github.com/platformcore/libpackage/ratelimit`
-- `github.com/platformcore/libpackage/foundation/result`
-- `github.com/platformcore/libpackage/security/encryption`
-- `github.com/platformcore/libpackage/security/hash`
-- `github.com/platformcore/libpackage/security/jwt`
-- `github.com/platformcore/libpackage/security/oauth2`
-- `github.com/platformcore/libpackage/security/secrets`
+- `github.com/driftappdev/foundation/config`
+- `github.com/driftappdev/docs`
+- `github.com/driftappdev/compat/goauth`
+- `github.com/driftappdev/compat/gocircuit`
+- `github.com/driftappdev/compat/goerror`
+- `github.com/driftappdev/compat/gologger`
+- `github.com/driftappdev/compat/gometrics`
+- `github.com/driftappdev/compat/goratelimit`
+- `github.com/driftappdev/compat/goretry`
+- `github.com/driftappdev/compat/gosanitizer`
+- `github.com/driftappdev/compat/gotimeout`
+- `github.com/driftappdev/compat/gotracing`
+- `github.com/driftappdev/logmid/logging-middleware`
+- `github.com/driftappdev/ratelimit`
+- `github.com/driftappdev/foundation/result`
+- `github.com/driftappdev/security/encryption`
+- `github.com/driftappdev/security/hash`
+- `github.com/driftappdev/security/jwt`
+- `github.com/driftappdev/security/oauth2`
+- `github.com/driftappdev/security/secrets`
 
 ## Submodules
 
-- `github.com/platformcore/libpackage/foundation/client/grpc`
-- `github.com/platformcore/libpackage/foundation/client/http`
-- `github.com/platformcore/libpackage/foundation/client/nats`
-- `github.com/platformcore/libpackage/foundation/contracts/errors`
-- `github.com/platformcore/libpackage/foundation/contracts/pagination`
-- `github.com/platformcore/libpackage/foundation/contracts/response`
-- `github.com/platformcore/libpackage/foundation/contracts/versioning`
-- `github.com/platformcore/libpackage/foundation/core/constants`
-- `github.com/platformcore/libpackage/foundation/core/context`
-- `github.com/platformcore/libpackage/foundation/core/errors`
-- `github.com/platformcore/libpackage/foundation/core/logger`
-- `github.com/platformcore/libpackage/foundation/core/result`
-- `github.com/platformcore/libpackage/foundation/core/types`
-- `github.com/platformcore/libpackage/foundation/core/utils`
-- `github.com/platformcore/libpackage/orchestration/di/container`
-- `github.com/platformcore/libpackage/orchestration/di/module`
-- `github.com/platformcore/libpackage/orchestration/di/provider`
-- `github.com/platformcore/libpackage/orchestration/di/registry`
-- `github.com/platformcore/libpackage/orchestration/di/scope`
-- `github.com/platformcore/libpackage/platform/eventbus/deadletter`
-- `github.com/platformcore/libpackage/platform/eventbus/envelope`
-- `github.com/platformcore/libpackage/platform/eventbus/headers`
-- `github.com/platformcore/libpackage/platform/eventbus/idempotency`
-- `github.com/platformcore/libpackage/platform/eventbus/publisher`
-- `github.com/platformcore/libpackage/platform/eventbus/registry`
-- `github.com/platformcore/libpackage/platform/eventbus/retry`
-- `github.com/platformcore/libpackage/platform/eventbus/serializer`
-- `github.com/platformcore/libpackage/platform/eventbus/subscriber`
-- `github.com/platformcore/libpackage/platform/featureflag/cache`
-- `github.com/platformcore/libpackage/platform/featureflag/client`
-- `github.com/platformcore/libpackage/platform/featureflag/evaluator`
-- `github.com/platformcore/libpackage/platform/featureflag/provider`
-- `github.com/platformcore/libpackage/platform/featureflag/types`
-- `github.com/platformcore/libpackage/infra/backoff`
-- `github.com/platformcore/libpackage/infra/bulkhead`
-- `github.com/platformcore/libpackage/infra/cache`
-- `github.com/platformcore/libpackage/infra/circuit`
-- `github.com/platformcore/libpackage/infra/clock`
-- `github.com/platformcore/libpackage/infra/retry`
-- `github.com/platformcore/libpackage/observability/correlation`
-- `github.com/platformcore/libpackage/observability/healthcheck`
-- `github.com/platformcore/libpackage/observability/logging`
-- `github.com/platformcore/libpackage/observability/profiler`
-- `github.com/platformcore/libpackage/observability/span`
-- `github.com/platformcore/libpackage/observability/trace`
-- `github.com/platformcore/libpackage/observability/tracing`
-- `github.com/platformcore/libpackage/platform/client`
-- `github.com/platformcore/libpackage/platform/container`
-- `github.com/platformcore/libpackage/platform/evaluator`
-- `github.com/platformcore/libpackage/platform/hooks`
-- `github.com/platformcore/libpackage/platform/loader`
-- `github.com/platformcore/libpackage/platform/provider`
-- `github.com/platformcore/libpackage/platform/registry`
-- `github.com/platformcore/libpackage/platform/versioning`
-- `github.com/platformcore/libpackage/plugins/hooks`
-- `github.com/platformcore/libpackage/plugins/loader`
-- `github.com/platformcore/libpackage/plugins/manifest`
-- `github.com/platformcore/libpackage/plugins/registry`
-- `github.com/platformcore/libpackage/resilience/cache`
-- `github.com/platformcore/libpackage/resilience/circuit`
-- `github.com/platformcore/libpackage/resilience/pagination`
-- `github.com/platformcore/libpackage/resilience/retry`
-- `github.com/platformcore/libpackage/resilience/sanitizer`
-- `github.com/platformcore/libpackage/resilience/schema`
-- `github.com/platformcore/libpackage/resilience/serializer`
-- `github.com/platformcore/libpackage/resilience/validate`
-- `github.com/platformcore/libpackage/resilience/validator`
-- `github.com/platformcore/libpackage/foundation/runtime/health`
-- `github.com/platformcore/libpackage/foundation/runtime/lifecycle`
-- `github.com/platformcore/libpackage/foundation/runtime/shutdown`
-- `github.com/platformcore/libpackage/foundation/runtime/signals`
-- `github.com/platformcore/libpackage/observability/telemetry/baggage`
-- `github.com/platformcore/libpackage/observability/telemetry/correlation`
-- `github.com/platformcore/libpackage/observability/telemetry/trace`
-- `github.com/platformcore/libpackage/testing/fixtures`
-- `github.com/platformcore/libpackage/testing/mocks`
-- `github.com/platformcore/libpackage/testing/testutil`
-- `github.com/platformcore/libpackage/foundation/validator/binding`
-- `github.com/platformcore/libpackage/foundation/validator/schema`
+- `github.com/driftappdev/foundation/client/grpc`
+- `github.com/driftappdev/foundation/client/http`
+- `github.com/driftappdev/foundation/client/nats`
+- `github.com/driftappdev/foundation/contracts/errors`
+- `github.com/driftappdev/foundation/contracts/pagination`
+- `github.com/driftappdev/foundation/contracts/response`
+- `github.com/driftappdev/foundation/contracts/versioning`
+- `github.com/driftappdev/foundation/core/constants`
+- `github.com/driftappdev/foundation/core/context`
+- `github.com/driftappdev/foundation/core/errors`
+- `github.com/driftappdev/foundation/core/logger`
+- `github.com/driftappdev/foundation/core/result`
+- `github.com/driftappdev/foundation/core/types`
+- `github.com/driftappdev/foundation/core/utils`
+- `github.com/driftappdev/orchestration/di/container`
+- `github.com/driftappdev/orchestration/di/module`
+- `github.com/driftappdev/orchestration/di/provider`
+- `github.com/driftappdev/orchestration/di/registry`
+- `github.com/driftappdev/orchestration/di/scope`
+- `github.com/driftappdev/platform/eventbus/deadletter`
+- `github.com/driftappdev/platform/eventbus/envelope`
+- `github.com/driftappdev/platform/eventbus/headers`
+- `github.com/driftappdev/platform/eventbus/idempotency`
+- `github.com/driftappdev/platform/eventbus/publisher`
+- `github.com/driftappdev/platform/eventbus/registry`
+- `github.com/driftappdev/platform/eventbus/retry`
+- `github.com/driftappdev/platform/eventbus/serializer`
+- `github.com/driftappdev/platform/eventbus/subscriber`
+- `github.com/driftappdev/platform/featureflag/cache`
+- `github.com/driftappdev/platform/featureflag/client`
+- `github.com/driftappdev/platform/featureflag/evaluator`
+- `github.com/driftappdev/platform/featureflag/provider`
+- `github.com/driftappdev/platform/featureflag/types`
+- `github.com/driftappdev/infra/backoff`
+- `github.com/driftappdev/infra/bulkhead`
+- `github.com/driftappdev/infra/cache`
+- `github.com/driftappdev/infra/circuit`
+- `github.com/driftappdev/infra/clock`
+- `github.com/driftappdev/infra/retry`
+- `github.com/driftappdev/observability/correlation`
+- `github.com/driftappdev/observability/healthcheck`
+- `github.com/driftappdev/observability/logging`
+- `github.com/driftappdev/observability/profiler`
+- `github.com/driftappdev/observability/span`
+- `github.com/driftappdev/observability/trace`
+- `github.com/driftappdev/observability/tracing`
+- `github.com/driftappdev/platform/client`
+- `github.com/driftappdev/platform/container`
+- `github.com/driftappdev/platform/evaluator`
+- `github.com/driftappdev/platform/hooks`
+- `github.com/driftappdev/platform/loader`
+- `github.com/driftappdev/platform/provider`
+- `github.com/driftappdev/platform/registry`
+- `github.com/driftappdev/platform/versioning`
+- `github.com/driftappdev/plugins/hooks`
+- `github.com/driftappdev/plugins/loader`
+- `github.com/driftappdev/plugins/manifest`
+- `github.com/driftappdev/plugins/registry`
+- `github.com/driftappdev/resilience/cache`
+- `github.com/driftappdev/resilience/circuit`
+- `github.com/driftappdev/resilience/pagination`
+- `github.com/driftappdev/resilience/retry`
+- `github.com/driftappdev/resilience/sanitizer`
+- `github.com/driftappdev/resilience/schema`
+- `github.com/driftappdev/resilience/serializer`
+- `github.com/driftappdev/resilience/validate`
+- `github.com/driftappdev/resilience/validator`
+- `github.com/driftappdev/foundation/runtime/health`
+- `github.com/driftappdev/foundation/runtime/lifecycle`
+- `github.com/driftappdev/foundation/runtime/shutdown`
+- `github.com/driftappdev/foundation/runtime/signals`
+- `github.com/driftappdev/observability/telemetry/baggage`
+- `github.com/driftappdev/observability/telemetry/correlation`
+- `github.com/driftappdev/observability/telemetry/trace`
+- `github.com/driftappdev/testing/fixtures`
+- `github.com/driftappdev/testing/mocks`
+- `github.com/driftappdev/testing/testutil`
+- `github.com/driftappdev/foundation/validator/binding`
+- `github.com/driftappdev/foundation/validator/schema`
 
 ## Install Examples
 
 ```bash
-go get github.com/platformcore/libpackage/foundation/client@latest
-go get github.com/platformcore/libpackage/foundation/contracts@latest
-go get github.com/platformcore/libpackage/foundation/core@latest
-go get github.com/platformcore/libpackage/foundation/client/grpc@latest
-go get github.com/platformcore/libpackage/foundation/client/http@latest
-go get github.com/platformcore/libpackage/foundation/client/nats@latest
+go get github.com/driftappdev/foundation/client@latest
+go get github.com/driftappdev/foundation/contracts@latest
+go get github.com/driftappdev/foundation/core@latest
+go get github.com/driftappdev/foundation/client/grpc@latest
+go get github.com/driftappdev/foundation/client/http@latest
+go get github.com/driftappdev/foundation/client/nats@latest
 ```
 
 

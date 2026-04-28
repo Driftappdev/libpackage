@@ -1,4 +1,4 @@
-﻿// Package distlock provides an enterprise-grade distributed locking system.
+// Package distlock provides an enterprise-grade distributed locking system.
 //
 // Features:
 //   - Redis backend (Redlock algorithm with quorum)
@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/platformcore/libpackage/plugins/common"
+	"github.com/driftappdev/plugins/common"
 	"github.com/go-redis/redis/v8"
 	"github.com/google/uuid"
 )

@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/middleware/clock
+module github.com/driftappdev/middleware/clock
 
 go 1.25.0
 

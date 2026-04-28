@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/middleware/trace
+module github.com/driftappdev/middleware/trace
 
 go 1.25.0
 

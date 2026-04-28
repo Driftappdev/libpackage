@@ -1,11 +1,11 @@
 ﻿{
-    "github.com/platformcore/libpackage":  "v0.1.1",
-    "github.com/platformcore/libpackage/messaging/dlq":  "v0.1.1",
-    "github.com/platformcore/libpackage/messaging/inbox":  "v0.1.1",
-    "github.com/platformcore/libpackage/messaging/outbox":  "v0.1.1",
-    "github.com/platformcore/libpackage/messaging/redrive":  "v0.1.1",
-    "github.com/platformcore/libpackage/messaging/replay":  "v0.1.1",
-    "github.com/platformcore/libpackage/persistence/tx":  "v0.1.1",
-    "github.com/platformcore/libpackage/persistence/uow":  "v0.1.1"
+    "github.com/driftappdev":  "v0.1.1",
+    "github.com/driftappdev/messaging/dlq":  "v0.1.1",
+    "github.com/driftappdev/messaging/inbox":  "v0.1.1",
+    "github.com/driftappdev/messaging/outbox":  "v0.1.1",
+    "github.com/driftappdev/messaging/redrive":  "v0.1.1",
+    "github.com/driftappdev/messaging/replay":  "v0.1.1",
+    "github.com/driftappdev/persistence/tx":  "v0.1.1",
+    "github.com/driftappdev/persistence/uow":  "v0.1.1"
 }
 

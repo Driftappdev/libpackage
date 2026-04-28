@@ -1,4 +1,4 @@
-﻿// Package trace provides an enterprise span management layer on top of
+// Package trace provides an enterprise span management layer on top of
 // OpenTelemetry. It enriches spans with standardised enterprise attributes
 // and provides helpers for error recording and baggage propagation.
 package trace
@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/platformcore/libpackage/middleware/ids"
+	"github.com/driftappdev/middleware/ids"
 )
 
 // â”€â”€â”€ Semantic Attribute Keys â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€

@@ -1,5 +1,5 @@
 ﻿param(
-    [string]$RootModule = "github.com/platformcore/libpackage/filemods",
+    [string]$RootModule = "github.com/driftappdev/filemods",
     [string]$OutDir = "file_modules",
     [string]$GoVersion = "1.25.0"
 )

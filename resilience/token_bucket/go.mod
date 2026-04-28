@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/resilience/token_bucket
+module github.com/driftappdev/resilience/token_bucket
 
 go 1.25.1
 

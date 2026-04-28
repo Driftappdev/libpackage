@@ -1,4 +1,4 @@
-﻿package container
+package container
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/platformcore/libpackage/orchestration/di/registry"
+	"github.com/driftappdev/orchestration/di/registry"
 )
 
 type Factory func(c *Container) (any, error)

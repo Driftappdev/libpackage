@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/foundation/config
+module github.com/driftappdev/foundation/config
 
 go 1.25.0
 

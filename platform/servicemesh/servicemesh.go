@@ -1,4 +1,4 @@
-﻿// Package servicemesh provides an enterprise-grade service mesh client library.
+// Package servicemesh provides an enterprise-grade service mesh client library.
 //
 // Features:
 //   - Service discovery (static, DNS, Consul, etcd)
@@ -23,7 +23,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/platformcore/libpackage/plugins/common"
+	"github.com/driftappdev/plugins/common"
 )
 
 // ============================================================

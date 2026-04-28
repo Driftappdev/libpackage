@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/resilience/adaptive_retry
+module github.com/driftappdev/resilience/adaptive_retry
 
 go 1.25.1
 

@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/resilience/cache_stampede_protection
+module github.com/driftappdev/resilience/cache_stampede_protection
 
 go 1.25.1
 

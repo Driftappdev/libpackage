@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/observability/telemetry/trace
+module github.com/driftappdev/observability/telemetry/trace
 
 go 1.25.1
 

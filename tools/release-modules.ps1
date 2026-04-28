@@ -103,7 +103,7 @@ function Get-Modules([string]$RepoRoot) {
 }
 
 function Is-FileMod([string]$ModulePath) {
-    return $ModulePath -like "github.com/platformcore/libpackage/filemods/*"
+    return $ModulePath -like "github.com/driftappdev/filemods/*"
 }
 
 function Run([string]$cmd) {

@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/plugins/loader
+module github.com/driftappdev/plugins/loader
 
 go 1.25.1
 

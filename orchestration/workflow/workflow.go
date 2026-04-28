@@ -1,4 +1,4 @@
-﻿// Package workflow provides an enterprise-grade workflow/saga engine.
+// Package workflow provides an enterprise-grade workflow/saga engine.
 //
 // Features:
 //   - DAG-based workflow definition (steps with dependencies)
@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/platformcore/libpackage/plugins/common"
+	"github.com/driftappdev/plugins/common"
 	"github.com/go-redis/redis/v8"
 	"github.com/google/uuid"
 )

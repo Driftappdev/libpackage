@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/platform/container
+module github.com/driftappdev/platform/container
 
 go 1.25.0
 

@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/foundation/schema
+module github.com/driftappdev/foundation/schema
 
 go 1.25.0
 

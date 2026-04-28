@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/orchestration/di
+module github.com/driftappdev/orchestration/di
 
 go 1.25.0
 

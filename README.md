@@ -2,7 +2,7 @@
 
 Multi-module Go packages published under:
 
-- `github.com/platformcore/libpackage/...`
+- `github.com/driftappdev/...`
 
 ## One-time GitHub setup
 
@@ -26,7 +26,7 @@ This command will:
 Consumers install with version:
 
 ```bash
-go get github.com/platformcore/libpackage/platform/eventbus/retry@v0.1.0
+go get github.com/driftappdev/platform/eventbus/retry@v0.1.0
 ```
 
 

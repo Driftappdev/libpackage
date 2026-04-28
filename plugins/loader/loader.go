@@ -1,11 +1,11 @@
-﻿package loader
+package loader
 
 import (
 	"context"
 	"errors"
 
-	"github.com/platformcore/libpackage/plugins/hooks"
-	"github.com/platformcore/libpackage/plugins/manifest"
+	"github.com/driftappdev/plugins/hooks"
+	"github.com/driftappdev/plugins/manifest"
 )
 
 type Loader interface {

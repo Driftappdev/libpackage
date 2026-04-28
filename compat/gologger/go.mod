@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/compat/gologger
+module github.com/driftappdev/compat/gologger
 
 go 1.25.0
 

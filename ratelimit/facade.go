@@ -1,13 +1,13 @@
-﻿package ratelimit
+package ratelimit
 
 import (
 	"context"
 	"net/http"
 	"time"
 
-	common "github.com/platformcore/libpackage/plugins/common"
-	ent "github.com/platformcore/libpackage/ratelimit/enterprise"
-	legacy "github.com/platformcore/libpackage/ratelimit/legacy"
+	common "github.com/driftappdev/plugins/common"
+	ent "github.com/driftappdev/ratelimit/enterprise"
+	legacy "github.com/driftappdev/ratelimit/legacy"
 	"github.com/go-redis/redis/v8"
 	"google.golang.org/grpc"
 )

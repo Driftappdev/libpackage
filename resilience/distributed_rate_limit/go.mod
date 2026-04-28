@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/resilience/distributed_rate_limit
+module github.com/driftappdev/resilience/distributed_rate_limit
 
 go 1.25.1
 

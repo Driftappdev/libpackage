@@ -1,6 +1,6 @@
-﻿package client
+package client
 
-import "github.com/platformcore/libpackage/platform/featureflag/types"
+import "github.com/driftappdev/platform/featureflag/types"
 
 type Provider interface {
 	Get(key string) (types.Flag, bool)

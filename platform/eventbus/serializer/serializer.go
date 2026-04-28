@@ -1,6 +1,6 @@
-﻿package serializer
+package serializer
 
-import eventbus "github.com/platformcore/libpackage/platform/eventbus/codec"
+import eventbus "github.com/driftappdev/platform/eventbus/codec"
 
 type Serializer struct{ Codec eventbus.Codec }
 

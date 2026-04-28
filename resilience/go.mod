@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/resilience
+module github.com/driftappdev/resilience
 
 go 1.25.1
 

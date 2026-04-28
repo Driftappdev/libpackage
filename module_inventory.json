@@ -1,420 +1,420 @@
 ﻿[
     {
-        "Module":  "github.com/diftappdev/libpackage/adminshield",
+        "Module":  "github.com/driftappdev/adminshield",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\middleware\\adminshield",
         "GoFileCount":  2,
         "PackageNames":  "adminshield"
     },
     {
-        "Module":  "github.com/diftappdev/libpackage/auth",
+        "Module":  "github.com/driftappdev/auth",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\middleware\\auth",
         "GoFileCount":  4,
         "PackageNames":  "auth"
     },
     {
-        "Module":  "github.com/platformcore/libpackage",
+        "Module":  "github.com/driftappdev",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage",
         "GoFileCount":  249,
         "PackageNames":  "subscriber, client, schema, propagation, gospan, evaluator, utils, grpc, redrive, nats, loader, constants, gotrace, auth, idempotency, deadletter, types, headers, timeout, logging, main, middleware_test, jwt, baggage, trace, goversioning, goevaluator, gosanitizer, pagination, module, resilience, config, metrics, manifest, encryption, govalidator, replay, hooks, goauth, health, binding, telemetry, scope, eventbus, http, gotimeout, result, flowguard, exampleintegration, healthcheck, gocontainer, ratelimit, registry, hash, logger, gocorrelation, shutdown, common, correlation, serializer, requestid, versioning, goretry, profiler, lifecycle, oauth2, container, gologger, goschema, gofeatureclient, clock, gologmid, cors, signals, pool, provider, cache, errors, gocircuit, response, gotracing, context, recovery, publisher, event, tracing, middleware, goratelimit, retry, goerror, gometrics, envelope, adminshield"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/foundation/client",
+        "Module":  "github.com/driftappdev/foundation/client",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\client",
         "GoFileCount":  8,
         "PackageNames":  "grpc, http, nats"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/foundation/config",
+        "Module":  "github.com/driftappdev/foundation/config",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\config",
         "GoFileCount":  5,
         "PackageNames":  "config"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/foundation/contracts",
+        "Module":  "github.com/driftappdev/foundation/contracts",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\contracts",
         "GoFileCount":  4,
         "PackageNames":  "versioning, pagination, errors, response"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/foundation/core",
+        "Module":  "github.com/driftappdev/foundation/core",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\core",
         "GoFileCount":  21,
         "PackageNames":  "context, logger, constants, utils, errors, result, types"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/orchestration/di",
+        "Module":  "github.com/driftappdev/orchestration/di",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\di",
         "GoFileCount":  5,
         "PackageNames":  "container, scope, module, registry, provider"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/platform/eventbus",
+        "Module":  "github.com/driftappdev/platform/eventbus",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\eventbus",
         "GoFileCount":  10,
         "PackageNames":  "registry, retry, subscriber, idempotency, headers, deadletter, publisher, envelope, serializer, eventbus"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/platform/featureflag",
+        "Module":  "github.com/driftappdev/platform/featureflag",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\featureflag",
         "GoFileCount":  13,
         "PackageNames":  "types, client, cache, provider, evaluator"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/compat/goauth",
+        "Module":  "github.com/driftappdev/compat/goauth",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\goauth",
         "GoFileCount":  1,
         "PackageNames":  "goauth"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/compat/gocircuit",
+        "Module":  "github.com/driftappdev/compat/gocircuit",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\gocircuit",
         "GoFileCount":  1,
         "PackageNames":  "gocircuit"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/compat/goerror",
+        "Module":  "github.com/driftappdev/compat/goerror",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\goerror",
         "GoFileCount":  1,
         "PackageNames":  "goerror"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/compat/gologger",
+        "Module":  "github.com/driftappdev/compat/gologger",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\gologger",
         "GoFileCount":  1,
         "PackageNames":  "gologger"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/compat/gometrics",
+        "Module":  "github.com/driftappdev/compat/gometrics",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\gometrics",
         "GoFileCount":  1,
         "PackageNames":  "gometrics"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/compat/goratelimit",
+        "Module":  "github.com/driftappdev/compat/goratelimit",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\goratelimit",
         "GoFileCount":  6,
         "PackageNames":  "goratelimit"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/compat/goretry",
+        "Module":  "github.com/driftappdev/compat/goretry",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\goretry",
         "GoFileCount":  1,
         "PackageNames":  "goretry"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/compat/gosanitizer",
+        "Module":  "github.com/driftappdev/compat/gosanitizer",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\gosanitizer",
         "GoFileCount":  1,
         "PackageNames":  "gosanitizer"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/compat/gotimeout",
+        "Module":  "github.com/driftappdev/compat/gotimeout",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\gotimeout",
         "GoFileCount":  1,
         "PackageNames":  "gotimeout"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/compat/gotracing",
+        "Module":  "github.com/driftappdev/compat/gotracing",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\gotracing",
         "GoFileCount":  1,
         "PackageNames":  "gotracing"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/tools/lib_word",
+        "Module":  "github.com/driftappdev/tools/lib_word",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\lib_word",
         "GoFileCount":  24,
         "PackageNames":  "main, flowguard, resilience"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/tools/lib_word/cmd/example",
+        "Module":  "github.com/driftappdev/tools/lib_word/cmd/example",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\lib_word\\cmd\\example",
         "GoFileCount":  1,
         "PackageNames":  "main"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/tools/lib_word/flowguard-ultimate",
+        "Module":  "github.com/driftappdev/tools/lib_word/flowguard-ultimate",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\lib_word\\flowguard-ultimate",
         "GoFileCount":  10,
         "PackageNames":  "flowguard"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/observability/logging-middleware",
+        "Module":  "github.com/driftappdev/observability/logging-middleware",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\logging-middleware",
         "GoFileCount":  1,
         "PackageNames":  "gologmid"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/messaging/audit",
+        "Module":  "github.com/driftappdev/messaging/audit",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\auditv.1",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/messaging/dlq",
+        "Module":  "github.com/driftappdev/messaging/dlq",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\dlq",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/messaging/example_integration",
+        "Module":  "github.com/driftappdev/messaging/example_integration",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\example_integration",
         "GoFileCount":  1,
         "PackageNames":  "exampleintegration"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/messaging/idempotency",
+        "Module":  "github.com/driftappdev/messaging/idempotency",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\idempotency",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/messaging/inbox",
+        "Module":  "github.com/driftappdev/messaging/inbox",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\inbox",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/messaging/outbox",
+        "Module":  "github.com/driftappdev/messaging/outbox",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\outbox",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/messaging/redrive",
+        "Module":  "github.com/driftappdev/messaging/redrive",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\redrive",
         "GoFileCount":  1,
         "PackageNames":  "redrive"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/messaging/replay",
+        "Module":  "github.com/driftappdev/messaging/replay",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\replay",
         "GoFileCount":  6,
         "PackageNames":  "replay"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/middleware",
+        "Module":  "github.com/driftappdev/middleware",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\middleware",
         "GoFileCount":  60,
         "PackageNames":  "middleware, timeout, clock, main, ratelimit, cors, middleware_test, logging, propagation, recovery, trace, adminshield, tracing, grpc, requestid, pool, registry, auth, telemetry, event"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/middleware/adminshield/admin-middleware",
+        "Module":  "github.com/driftappdev/middleware/adminshield/admin-middleware",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\middleware\\adminshield\\admin-middleware",
         "GoFileCount":  1,
         "PackageNames":  "adminshield"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/middleware/requestid",
+        "Module":  "github.com/driftappdev/middleware/requestid",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\middleware\\requestid",
         "GoFileCount":  5,
         "PackageNames":  "requestid"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/middleware/timeout",
+        "Module":  "github.com/driftappdev/middleware/timeout",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\middleware\\timeout",
         "GoFileCount":  5,
         "PackageNames":  "timeout"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/observability",
+        "Module":  "github.com/driftappdev/observability",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\observability",
         "GoFileCount":  16,
         "PackageNames":  "gospan, profiler, healthcheck, gotrace, gocorrelation, metrics, tracing, logging"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/observability/audit",
+        "Module":  "github.com/driftappdev/observability/audit",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\audit",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/observability/correlation",
+        "Module":  "github.com/driftappdev/observability/correlation",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\observability\\correlation",
         "GoFileCount":  1,
         "PackageNames":  "gocorrelation"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/observability/healthcheck",
+        "Module":  "github.com/driftappdev/observability/healthcheck",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\observability\\healthcheck",
         "GoFileCount":  3,
         "PackageNames":  "healthcheck"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/observability/performance",
+        "Module":  "github.com/driftappdev/observability/performance",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\performance",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/observability/sentinelprofiler",
+        "Module":  "github.com/driftappdev/observability/sentinelprofiler",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\sentinelprofiler",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/observability/span",
+        "Module":  "github.com/driftappdev/observability/span",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\observability\\span",
         "GoFileCount":  1,
         "PackageNames":  "gospan"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/observability/tracing",
+        "Module":  "github.com/driftappdev/observability/tracing",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\observability\\tracing",
         "GoFileCount":  3,
         "PackageNames":  "tracing"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/persistence",
+        "Module":  "github.com/driftappdev/persistence",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\persistence",
         "GoFileCount":  0,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/persistence/distlock",
+        "Module":  "github.com/driftappdev/persistence/distlock",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\distlock",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/persistence/tx",
+        "Module":  "github.com/driftappdev/persistence/tx",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\tx",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/persistence/uow",
+        "Module":  "github.com/driftappdev/persistence/uow",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\uow",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/platform",
+        "Module":  "github.com/driftappdev/platform",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\platform",
         "GoFileCount":  4,
         "PackageNames":  "goevaluator, gocontainer, goversioning, gofeatureclient"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/platform/servicemesh",
+        "Module":  "github.com/driftappdev/platform/servicemesh",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\servicemesh",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/plugins",
+        "Module":  "github.com/driftappdev/plugins",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\plugins",
         "GoFileCount":  5,
         "PackageNames":  "manifest, loader, hooks, registry, provider"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/plugins/common",
+        "Module":  "github.com/driftappdev/plugins/common",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\common",
         "GoFileCount":  1,
         "PackageNames":  "common"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/plugins/engine",
+        "Module":  "github.com/driftappdev/plugins/engine",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\engine",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/ratelimit",
+        "Module":  "github.com/driftappdev/ratelimit",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\ratelimitX",
         "GoFileCount":  10,
         "PackageNames":  "ratelimit"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/ratelimit/enterprise",
+        "Module":  "github.com/driftappdev/ratelimit/enterprise",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\enterprise",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/ratelimit/memory_store",
+        "Module":  "github.com/driftappdev/ratelimit/memory_store",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\ratelimitX\\memory_store",
         "GoFileCount":  1,
         "PackageNames":  "ratelimit"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/resilience",
+        "Module":  "github.com/driftappdev/resilience",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\resilience",
         "GoFileCount":  1,
         "PackageNames":  "govalidator"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/resilience/validator",
+        "Module":  "github.com/driftappdev/resilience/validator",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\resilience\\validator",
         "GoFileCount":  1,
         "PackageNames":  "govalidator"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/foundation/result",
+        "Module":  "github.com/driftappdev/foundation/result",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\result",
         "GoFileCount":  1,
         "PackageNames":  "result"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/foundation/runtime",
+        "Module":  "github.com/driftappdev/foundation/runtime",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\runtime",
         "GoFileCount":  4,
         "PackageNames":  "shutdown, signals, health, lifecycle"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/security",
+        "Module":  "github.com/driftappdev/security",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\security",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/security/encryption",
+        "Module":  "github.com/driftappdev/security/encryption",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\encryption",
         "GoFileCount":  1,
         "PackageNames":  "encryption"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/security/hash",
+        "Module":  "github.com/driftappdev/security/hash",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\hash",
         "GoFileCount":  1,
         "PackageNames":  "hash"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/security/jwt",
+        "Module":  "github.com/driftappdev/security/jwt",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\jwt",
         "GoFileCount":  1,
         "PackageNames":  "jwt"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/security/oauth2",
+        "Module":  "github.com/driftappdev/security/oauth2",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\oauth2",
         "GoFileCount":  2,
         "PackageNames":  "oauth2"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/security/permission",
+        "Module":  "github.com/driftappdev/security/permission",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\permission",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/security/policy",
+        "Module":  "github.com/driftappdev/security/policy",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\policy",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/security/threatdefense",
+        "Module":  "github.com/driftappdev/security/threatdefense",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\threatdefense",
         "GoFileCount":  1,
         "PackageNames":  ""
     },
     {
-        "Module":  "github.com/platformcore/libpackage/observability/telemetry",
+        "Module":  "github.com/driftappdev/observability/telemetry",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\telemetry",
         "GoFileCount":  3,
         "PackageNames":  "correlation, trace, baggage"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/foundation/validator",
+        "Module":  "github.com/driftappdev/foundation/validator",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\validator",
         "GoFileCount":  5,
         "PackageNames":  "schema, binding"
@@ -426,7 +426,7 @@
         "PackageNames":  "propagation, pool, registry, telemetry, grpc, middleware, event, clock, middleware_test, main, trace"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/middleware/clock",
+        "Module":  "github.com/driftappdev/middleware/clock",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\middleware\\push_code_middleware\\clock",
         "GoFileCount":  1,
         "PackageNames":  "clock"
@@ -438,7 +438,7 @@
         "PackageNames":  "main"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/middleware/event",
+        "Module":  "github.com/driftappdev/middleware/event",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\middleware\\push_code_middleware\\event",
         "GoFileCount":  1,
         "PackageNames":  "event"
@@ -456,7 +456,7 @@
         "PackageNames":  "middleware_test, middleware"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/middleware/ids",
+        "Module":  "github.com/driftappdev/middleware/ids",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\middleware\\push_code_middleware\\ids",
         "GoFileCount":  1,
         "PackageNames":  ""
@@ -468,19 +468,19 @@
         "PackageNames":  "event"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/middleware/pool",
+        "Module":  "github.com/driftappdev/middleware/pool",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\middleware\\push_code_middleware\\pool",
         "GoFileCount":  1,
         "PackageNames":  "pool"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/middleware/propagation",
+        "Module":  "github.com/driftappdev/middleware/propagation",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\middleware\\push_code_middleware\\propagation",
         "GoFileCount":  1,
         "PackageNames":  "propagation"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/middleware/registry",
+        "Module":  "github.com/driftappdev/middleware/registry",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\middleware\\push_code_middleware\\registry",
         "GoFileCount":  1,
         "PackageNames":  "registry"
@@ -492,11 +492,12 @@
         "PackageNames":  "telemetry"
     },
     {
-        "Module":  "github.com/platformcore/libpackage/middleware/trace",
+        "Module":  "github.com/driftappdev/middleware/trace",
         "Dir":  "C:\\Users\\AdminWC\\Dift App project\\Project-Production-Ready\\libpackage\\middleware\\push_code_middleware\\trace",
         "GoFileCount":  1,
         "PackageNames":  "trace"
     }
 ]
+
 
 

@@ -1,4 +1,4 @@
-﻿package healthcheck
+package healthcheck
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	coretypes "github.com/platformcore/libpackage/foundation/core/types"
+	coretypes "github.com/driftappdev/foundation/core/types"
 )
 
 // Checker represents a single health check probe.

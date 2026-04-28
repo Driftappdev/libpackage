@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/observability/metrics/registry
+module github.com/driftappdev/observability/metrics/registry
 
 go 1.25.1
 

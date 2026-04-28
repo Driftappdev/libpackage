@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/middleware/pool
+module github.com/driftappdev/middleware/pool
 
 go 1.25.0
 

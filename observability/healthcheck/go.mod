@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/observability/healthcheck
+module github.com/driftappdev/observability/healthcheck
 
 go 1.25.1
 

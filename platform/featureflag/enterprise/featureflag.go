@@ -1,4 +1,4 @@
-﻿// Package featureflag provides an enterprise-grade feature flag system.
+// Package featureflag provides an enterprise-grade feature flag system.
 //
 // Features:
 //   - Multiple backends: Redis, etcd, in-memory, HTTP remote
@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/platformcore/libpackage/plugins/common"
+	"github.com/driftappdev/plugins/common"
 	"github.com/go-redis/redis/v8"
 )
 

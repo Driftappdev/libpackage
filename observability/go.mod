@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/observability
+module github.com/driftappdev/observability
 
 go 1.25.1
 

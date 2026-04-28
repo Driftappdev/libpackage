@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/middleware/event
+module github.com/driftappdev/middleware/event
 
 go 1.25.0
 

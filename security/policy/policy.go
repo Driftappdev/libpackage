@@ -1,4 +1,4 @@
-﻿// Package policy provides an enterprise-grade policy engine supporting RBAC and ABAC.
+// Package policy provides an enterprise-grade policy engine supporting RBAC and ABAC.
 //
 // Features:
 //   - Role-Based Access Control (RBAC): roles, permissions, role hierarchy
@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/platformcore/libpackage/plugins/common"
+	"github.com/driftappdev/plugins/common"
 )
 
 // ============================================================

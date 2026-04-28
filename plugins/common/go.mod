@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/plugins/common
+module github.com/driftappdev/plugins/common
 
 go 1.25.1
 

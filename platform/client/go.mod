@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/platform/client
+module github.com/driftappdev/platform/client
 
 go 1.25.0
 

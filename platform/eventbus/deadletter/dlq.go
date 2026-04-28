@@ -1,9 +1,9 @@
-﻿package deadletter
+package deadletter
 
 import (
 	"context"
 
-	"github.com/platformcore/libpackage/platform/eventbus/subscriber"
+	"github.com/driftappdev/platform/eventbus/subscriber"
 )
 
 type Writer interface {

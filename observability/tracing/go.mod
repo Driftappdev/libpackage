@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/observability/tracing
+module github.com/driftappdev/observability/tracing
 
 go 1.25.1
 

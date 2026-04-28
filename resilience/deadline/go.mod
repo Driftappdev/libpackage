@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/resilience/deadline
+module github.com/driftappdev/resilience/deadline
 
 go 1.25.1
 

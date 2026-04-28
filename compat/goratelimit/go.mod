@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/compat/goratelimit
+module github.com/driftappdev/compat/goratelimit
 
 go 1.25.0
 

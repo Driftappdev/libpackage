@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/foundation/result
+module github.com/driftappdev/foundation/result
 
 go 1.25.0
 

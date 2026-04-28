@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/middleware/propagation
+module github.com/driftappdev/middleware/propagation
 
 go 1.25.0
 

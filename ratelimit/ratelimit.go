@@ -1,6 +1,6 @@
-﻿package ratelimit
+package ratelimit
 
-import base "github.com/platformcore/libpackage/ratelimit/limiter"
+import base "github.com/driftappdev/ratelimit/limiter"
 
 type Strategy = base.Strategy
 

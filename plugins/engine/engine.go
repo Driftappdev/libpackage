@@ -1,4 +1,4 @@
-﻿// Package plugin provides an enterprise-grade plugin system for Go microservices.
+// Package plugin provides an enterprise-grade plugin system for Go microservices.
 //
 // Features:
 //   - Plugin lifecycle management (load, start, stop, health check)
@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/platformcore/libpackage/plugins/common"
+	"github.com/driftappdev/plugins/common"
 )
 
 // ============================================================

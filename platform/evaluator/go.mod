@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/platform/evaluator
+module github.com/driftappdev/platform/evaluator
 
 go 1.25.0
 

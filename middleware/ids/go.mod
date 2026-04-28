@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/middleware/ids
+module github.com/driftappdev/middleware/ids
 
 go 1.25.0
 

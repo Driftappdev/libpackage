@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/observability/logging
+module github.com/driftappdev/observability/logging
 
 go 1.25.1
 

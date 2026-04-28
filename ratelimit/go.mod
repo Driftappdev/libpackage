@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/ratelimit
+module github.com/driftappdev/ratelimit
 
 go 1.25.1
 
@@ -47,5 +47,5 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 )
 
-replace github.com/platformcore/libpackage/plugins => ../plugins
+replace github.com/driftappdev/plugins => ../plugins
 

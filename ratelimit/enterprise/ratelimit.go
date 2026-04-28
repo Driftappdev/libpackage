@@ -1,4 +1,4 @@
-﻿// Package ratelimit provides an enterprise-grade distributed rate limiting system.
+// Package ratelimit provides an enterprise-grade distributed rate limiting system.
 //
 // Features:
 //   - Multiple algorithms: token bucket, sliding window, fixed window, leaky bucket
@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/platformcore/libpackage/plugins/common"
+	"github.com/driftappdev/plugins/common"
 	"github.com/go-redis/redis/v8"
 )
 

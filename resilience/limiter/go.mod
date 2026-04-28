@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/resilience/limiter
+module github.com/driftappdev/resilience/limiter
 
 go 1.25.1
 

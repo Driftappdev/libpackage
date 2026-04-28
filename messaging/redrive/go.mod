@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/messaging/redrive
+module github.com/driftappdev/messaging/redrive
 
 go 1.25.0
 

@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/observability/telemetry/correlation
+module github.com/driftappdev/observability/telemetry/correlation
 
 go 1.25.1
 

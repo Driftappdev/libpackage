@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/messaging/dlq
+module github.com/driftappdev/messaging/dlq
 
 go 1.25.0
 

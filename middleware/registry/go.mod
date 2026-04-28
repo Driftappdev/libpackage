@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/middleware/registry
+module github.com/driftappdev/middleware/registry
 
 go 1.25.0
 

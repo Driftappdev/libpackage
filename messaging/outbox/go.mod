@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/messaging/outbox
+module github.com/driftappdev/messaging/outbox
 
 go 1.25.0
 

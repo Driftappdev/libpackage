@@ -47,7 +47,7 @@ Optional flags:
 Use commands in `INSTALL_MODULES.md`, for example:
 
 ```bash
-go get github.com/platformcore/libpackage/foundation/core/result@latest
+go get github.com/driftappdev/foundation/core/result@latest
 ```
 
 ## One-command release (bump + tag + push)

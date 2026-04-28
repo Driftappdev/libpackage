@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/foundation/validator/binding
+module github.com/driftappdev/foundation/validator/binding
 
 go 1.25.0
 

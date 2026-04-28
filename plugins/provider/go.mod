@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/plugins/provider
+module github.com/driftappdev/plugins/provider
 
 go 1.25.1
 

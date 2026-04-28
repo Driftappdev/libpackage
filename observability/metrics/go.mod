@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/observability/metrics
+module github.com/driftappdev/observability/metrics
 
 go 1.25.1
 

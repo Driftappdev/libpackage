@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/platform/servicemesh
+module github.com/driftappdev/platform/servicemesh
 
 go 1.25.0
 

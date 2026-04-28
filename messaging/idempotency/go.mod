@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/messaging/idempotency
+module github.com/driftappdev/messaging/idempotency
 
 go 1.25.0
 

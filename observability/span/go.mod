@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/observability/span
+module github.com/driftappdev/observability/span
 
 go 1.25.1
 

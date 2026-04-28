@@ -1,10 +1,10 @@
-﻿package registry
+package registry
 
 import (
 	"errors"
 	"sync"
 
-	"github.com/platformcore/libpackage/orchestration/di/provider"
+	"github.com/driftappdev/orchestration/di/provider"
 )
 
 type Entry struct {

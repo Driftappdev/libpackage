@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/plugins/registry
+module github.com/driftappdev/plugins/registry
 
 go 1.25.1
 

@@ -1,9 +1,9 @@
-﻿package evaluator
+package evaluator
 
 import (
 	"context"
 
-	ffclient "github.com/platformcore/libpackage/platform/featureflag/client"
+	ffclient "github.com/driftappdev/platform/featureflag/client"
 )
 
 type Subject struct {

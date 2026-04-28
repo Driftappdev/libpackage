@@ -1,4 +1,4 @@
-module github.com/platformcore/libpackage/messaging/audit
+module github.com/driftappdev/messaging/audit
 
 go 1.25.0
 

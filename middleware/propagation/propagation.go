@@ -1,4 +1,4 @@
-﻿// Package propagation handles cross-process context propagation across
+// Package propagation handles cross-process context propagation across
 // HTTP headers, gRPC metadata, and event message headers.
 // It supports W3C TraceContext, B3 (single & multi-header), and a custom
 // enterprise envelope that carries all obslib IDs in a single header.
@@ -13,7 +13,7 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"github.com/platformcore/libpackage/middleware/ids"
+	"github.com/driftappdev/middleware/ids"
 )
 
 // â”€â”€â”€ Enterprise Envelope Header â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€

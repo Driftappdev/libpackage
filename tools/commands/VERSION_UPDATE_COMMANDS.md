@@ -19,7 +19,7 @@ This updates:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\tools\bump-module-version.ps1 `
-  -Module github.com/platformcore/libpackage/persistence/uow `
+  -Module github.com/driftappdev/persistence/uow `
   -Version v0.1.1
 ```
 
@@ -27,7 +27,7 @@ Or auto-bump patch:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\tools\bump-module-version.ps1 `
-  -Module github.com/platformcore/libpackage/messaging/outbox `
+  -Module github.com/driftappdev/messaging/outbox `
   -Bump patch
 ```
 
@@ -51,7 +51,7 @@ One module:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\tools\bump-file-module-version.ps1 `
-  -Module github.com/platformcore/libpackage/filemods/core/result/result `
+  -Module github.com/driftappdev/filemods/core/result/result `
   -Version v0.1.1
 ```
 

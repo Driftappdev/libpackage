@@ -1,4 +1,4 @@
-﻿// example/main.go â€” demonstrates wiring all resilience primitives together
+// example/main.go â€” demonstrates wiring all resilience primitives together
 // as a unified middleware stack for an enterprise service.
 //go:build ignore
 // +build ignore
@@ -12,7 +12,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/platformcore/libpackage/tools/lib_word"
+	"github.com/driftappdev/tools/lib_word"
 )
 
 func main() {
