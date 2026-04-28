@@ -23,3 +23,26 @@ func (r *Registry) Get(name string) (Plugin, bool) {
 	p, ok := r.plugins[name]
 	return p, ok
 }
+
+// GenericRegistry is a reusable typed map-based registry.
+type GenericRegistry[T any] struct {
+	mu    sync.RWMutex
+	items map[string]T
+}
+
+func NewGeneric[T any]() *GenericRegistry[T] {
+	return &GenericRegistry[T]{items: map[string]T{}}
+}
+
+func (r *GenericRegistry[T]) Set(k string, v T) {
+	r.mu.Lock()
+	r.items[k] = v
+	r.mu.Unlock()
+}
+
+func (r *GenericRegistry[T]) GetTyped(k string) (T, bool) {
+	r.mu.RLock()
+	v, ok := r.items[k]
+	r.mu.RUnlock()
+	return v, ok
+}

@@ -1,3 +1,5 @@
-module github.com/driftappdev/libpackage/platform/client
+module github.com/platformcore/libpackage/platform/client
 
-go 1.25
+go 1.25.0
+
+

@@ -1,5 +1,5 @@
-module github.com/driftappdev/libpackage/observability/healthcheck
+module github.com/platformcore/libpackage/observability/healthcheck
 
-go 1.23.0
+go 1.25.1
 
-require github.com/driftappdev/libpackage/core/types v0.0.0-20260415192748-3b3e58ea6206
+

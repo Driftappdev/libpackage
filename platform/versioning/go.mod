@@ -1,3 +1,5 @@
-module github.com/driftappdev/libpackage/platform/versioning
+module github.com/platformcore/libpackage/platform/versioning
 
-go 1.25
+go 1.25.0
+
+

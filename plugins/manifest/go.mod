@@ -1,4 +1,5 @@
-module github.com/driftappdev/libpackage/plugins/manifest
+module github.com/platformcore/libpackage/plugins/manifest
 
-go 1.23.0
+go 1.25.1
+
 

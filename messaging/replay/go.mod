@@ -1,3 +1,4 @@
-module github.com/driftappdev/libpackage/messaging/replay
+module github.com/platformcore/libpackage/messaging/replay
 
-go 1.23.0
+go 1.25.0
+

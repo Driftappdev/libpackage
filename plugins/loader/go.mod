@@ -1,12 +1,5 @@
-module github.com/driftappdev/libpackage/plugins/loader
+module github.com/platformcore/libpackage/plugins/loader
 
-go 1.23.0
+go 1.25.1
 
-require (
-	github.com/driftappdev/libpackage/plugins/manifest v0.0.0
-)
-
-replace (
-	github.com/driftappdev/libpackage/plugins/manifest => ./../manifest/
-)
 

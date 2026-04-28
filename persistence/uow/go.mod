@@ -1,3 +1,5 @@
-module github.com/driftappdev/libpackage/persistence/uow
+module github.com/platformcore/libpackage/persistence/uow
 
-go 1.23.0
+go 1.25.0
+
+

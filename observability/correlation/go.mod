@@ -1,3 +1,5 @@
-module github.com/driftappdev/libpackage/observability/correlation
+module github.com/platformcore/libpackage/observability/correlation
 
-go 1.23.0
+go 1.25.1
+
+

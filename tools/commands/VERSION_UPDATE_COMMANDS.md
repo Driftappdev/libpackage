@@ -1,4 +1,4 @@
-# Version Update Commands
+﻿# Version Update Commands
 
 Run all commands from `libpackage` root.
 
@@ -19,7 +19,7 @@ This updates:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\tools\bump-module-version.ps1 `
-  -Module github.com/driftappdev/libpackage/persistence/uow `
+  -Module github.com/platformcore/libpackage/persistence/uow `
   -Version v0.1.1
 ```
 
@@ -27,7 +27,7 @@ Or auto-bump patch:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\tools\bump-module-version.ps1 `
-  -Module github.com/driftappdev/libpackage/messaging/outbox `
+  -Module github.com/platformcore/libpackage/messaging/outbox `
   -Bump patch
 ```
 
@@ -51,7 +51,7 @@ One module:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\tools\bump-file-module-version.ps1 `
-  -Module github.com/driftappdev/libpackage/filemods/core/result/result `
+  -Module github.com/platformcore/libpackage/filemods/core/result/result `
   -Version v0.1.1
 ```
 
@@ -89,3 +89,4 @@ powershell -ExecutionPolicy Bypass -File .\tools\publish-github.ps1 `
   -SkipRepoCreate `
   -DryRun
 ```
+

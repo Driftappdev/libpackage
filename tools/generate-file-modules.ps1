@@ -1,5 +1,5 @@
-param(
-    [string]$RootModule = "github.com/driftappdev/libpackage/filemods",
+﻿param(
+    [string]$RootModule = "github.com/platformcore/libpackage/filemods",
     [string]$OutDir = "file_modules",
     [string]$GoVersion = "1.25.0"
 )
@@ -106,3 +106,4 @@ $versions | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $versionsPath
 Write-Host "Generated per-file modules: $($items.Count)"
 Write-Host "Output dir: $OutDir"
 Write-Host "Updated: INSTALL_FILE_MODULES.md, FILE_MODULE_CATALOG.md, tools/file-module-versions.json"
+

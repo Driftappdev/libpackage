@@ -1,4 +1,4 @@
-package healthcheck
+﻿package healthcheck
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	coretypes "github.com/driftappdev/libpackage/core/types"
+	coretypes "github.com/platformcore/libpackage/foundation/core/types"
 )
 
 // Checker represents a single health check probe.
@@ -147,3 +147,5 @@ func handler(reg *Registry, kind string) http.Handler {
 		})
 	})
 }
+
+

@@ -1,3 +1,5 @@
-module github.com/driftappdev/libpackage/resilience/validator
+module github.com/platformcore/libpackage/resilience/validator
 
-go 1.23.0
+go 1.25.1
+
+

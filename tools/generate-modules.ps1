@@ -1,5 +1,5 @@
-param(
-    [string]$RootModule = "github.com/driftappdev/libpackage",
+﻿param(
+    [string]$RootModule = "github.com/platformcore/libpackage",
     [string]$GoVersion = "1.25.0",
     [string]$VersionsFile = "tools/module-versions.json",
     [string]$DefaultVersion = "v0.1.0"
@@ -146,3 +146,4 @@ $orderedOut | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $versionsPath
 Write-Host "Generated: INSTALL_MODULES.md, MODULE_CATALOG.md"
 Write-Host "Updated versions: $VersionsFile"
 Write-Host "Total modules: $($modules.Count)"
+

@@ -1,0 +1,598 @@
+# Duplicate Analysis
+
+Generated: 2026-04-28 04:32:46 +07:00
+
+## Duplicate Go Filenames
+- grpc.go (11 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\auth\grpc\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\logging\grpc\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\ratelimit\grpc\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\recovery\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\recovery\grpc\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\requestid\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\requestid\grpc\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\timeout\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\timeout\grpc\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\tracing\grpc\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\validator\binding\grpc.go
+- gin.go (11 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\auth\gin\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\cors\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\logging\gin\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\ratelimit\gin\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\recovery\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\recovery\gin\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\requestid\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\requestid\gin\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\timeout\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\timeout\gin\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\tracing\gin\gin.go
+- registry.go (5 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\di\registry\registry.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\eventbus\registry\registry.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\registry\registry.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\metrics\registry\registry.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\plugins\registry\registry.go
+- client.go (5 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\client\grpc\client.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\client\http\client.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\featureflag\client\client.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\oauth2\client.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\platform\client\client.go
+- provider.go (4 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\di\provider\provider.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\telemetry\provider.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\plugins\provider\provider.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\telemetry\trace\provider.go
+- errors.go (4 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\errors.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\errors\errors.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\replay\errors.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\validator\schema\errors.go
+- timeout.go (4 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\client\http\timeout.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gotimeout\timeout.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\timeout.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\timeout\timeout.go
+- tracing.go (3 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gotracing\tracing.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\tracing.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\tracing\tracing.go
+- metrics.go (3 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gometrics\metrics.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\metrics.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\metrics\metrics.go
+- result.go (3 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\result\result.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\result\result.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\result\result.go
+- ratelimit.go (3 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\enterprise\ratelimit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\ratelimit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\ratelimit.go
+- middleware.go (3 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\event\middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\mnt\user-data\outputs\obslib\pkg\middleware\event\middleware.go
+- retry.go (3 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\client\http\retry.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\eventbus\retry\retry.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goretry\retry.go
+- options.go (3 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\client\http\options.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\logger\options.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\options\options.go
+- logger.go (3 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\logger\logger.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gologger\logger.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\logger.go
+- context.go (3 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\context\context.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\logging\context.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\telemetry\correlation\context.go
+- main.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\lib_word\cmd\example\main.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\cmd\example\main.go
+- auth.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\auth\auth.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\auth.go
+- profiler.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\profiler\profiler.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\sentinelprofiler\profiler.go
+- policy.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\policy\policy.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\policy\policy.go
+- checkpoint.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\lib_word\checkpoint.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\replay\checkpoint.go
+- limiter.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\lib_word\limiter.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\limiter\limiter.go
+- validator.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\validator.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\resilience\validator\validator.go
+- security.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\security.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\security\security.go
+- requestid.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\requestid.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\requestid\requestid.go
+- span.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\trace\span.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\span\span.go
+- health.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\health.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\runtime\health\health.go
+- recovery.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\recovery.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\recovery\recovery.go
+- cors.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\cors\cors.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\cors.go
+- loader.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\config\loader\loader.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\plugins\loader\loader.go
+- file.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\config\file\file.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\featureflag\provider\file.go
+- advanced.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\logger\advanced.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\featureflag\evaluator\advanced.go
+- envelope.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\contracts\response\envelope.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\eventbus\envelope\envelope.go
+- interceptor.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\client\grpc\interceptor.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\grpc\interceptor.go
+- audit.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\audit\audit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\auditv.1\audit.go
+- subscriber.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\client\nats\subscriber.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\eventbus\subscriber\subscriber.go
+- publisher.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\client\nats\publisher.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\eventbus\publisher\publisher.go
+- container.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\di\container\container.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\platform\container\container.go
+- evaluator.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\featureflag\evaluator\evaluator.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\platform\evaluator\evaluator.go
+- memory.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\featureflag\client\memory.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\featureflag\provider\memory.go
+- rateLimit.middleware.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\rateLimit.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\ratelimit\ratelimit-middleware\rateLimit.middleware.go
+- auth.middleware.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goauth\auth.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\auth\auth-middleware\auth.middleware.go
+- engine.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\engine\engine.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\validator\schema\engine.go
+- dlq.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\dlq\dlq.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\eventbus\deadletter\dlq.go
+- cache.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\featureflag\cache\cache.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\cache.go
+- headers.go (2 files)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\eventbus\headers\headers.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\ratelimit\headers\headers.go
+
+## Duplicate Exported Function Names
+- New (27 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\audit\audit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\client\http\client.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\base.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\logger\logger.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\di\container\container.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\di\module\module.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\di\registry\registry.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\eventbus\registry\registry.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\featureflag\cache\cache.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\featureflag\client\client.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gocircuit\circuitBreaker.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- Gin (12 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\framework_middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\auth\gin\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\cors\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\logging\gin\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\ratelimit\gin\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\recovery\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\recovery\gin\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\requestid\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\requestid\gin\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\timeout\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\timeout\gin\gin.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\tracing\gin\gin.go
+- UnaryServerInterceptor (8 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\framework_middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\auth\grpc\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\logging\grpc\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\grpc\interceptor.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\ratelimit\grpc\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\timeout\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\timeout\grpc\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\tracing\grpc\grpc.go
+- HTTP (7 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\framework_middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\auth\auth-middleware\auth.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\cors\cors.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\ratelimit\ratelimit-middleware\rateLimit.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\recovery\recovery.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\requestid\requestid.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\timeout\timeout.go
+- FromContext (7 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goauth\auth.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\requestid\requestid.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\span\span.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\telemetry\baggage\baggage.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\telemetry\correlation\context.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\telemetry\trace\provider.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\uow\uow.go
+- Middleware (6 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\rateLimit.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\cors\cors.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\requestid\requestid.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\correlation\correlation.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\trace\trace.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\telemetry\correlation\context.go
+- NewRegistry (6 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\engine\engine.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gocircuit\circuitBreaker.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gometrics\metrics.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\healthcheck\healthcheck.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\metrics\metrics.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\metrics\registry\registry.go
+- NewManager (6 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\featureflag\enterprise\featureflag.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goauth\auth.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\idempotency\idempotency.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\runtime\lifecycle\lifecycle.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\runtime\shutdown\shutdown.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\tx\tx.go
+- WithRequestID (5 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\auditv.1\audit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\common\common.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\context\context.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\requestid.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\ids\ids.go
+- NewTokenBucket (5 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\rateLimit.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\inbox\inbox.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\lib_word\token_bucket.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\performance\performance.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\redrive\redrive.go
+- DefaultConfig (5 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\audit\audit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gocircuit\circuitBreaker.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goretry\retry.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\adminshield\admin-middleware\admin.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\cors\cors.go
+- newCircuitBreaker (5 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\audit\audit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\common\common.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\inbox\inbox.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\circuit_breaker.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\performance\performance.go
+- NewMemoryStore (4 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\advanced_memory_store.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\idempotency\idempotency.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\permission\permission.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\memory_store\memory_store.go
+- GRPC (4 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\recovery\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\recovery\grpc\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\requestid\grpc.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\requestid\grpc\grpc.go
+- Handler (4 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gometrics\metrics.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\healthcheck\healthcheck.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\profiler\pprof.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\runtime\health\health.go
+- WithContext (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\audit\audit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\requestid\requestid.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\telemetry\correlation\context.go
+- Do (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\eventbus\retry\retry.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goretry\retry.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gotimeout\timeout.go
+- WithRecovery (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\event\middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\recovery.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\mnt\user-data\outputs\obslib\pkg\middleware\event\middleware.go
+- WithID (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\auditv.1\audit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\correlation\correlation.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\telemetry\correlation\context.go
+- HTTPMiddleware (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\enterprise\ratelimit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gotracing\tracing.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\telemetry\trace\provider.go
+- F (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\logger\field.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gologger\logger.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\logging-middleware\logging.middleware.go
+- newSpanID (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gotracing\tracing.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\ids\ids.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\trace\trace.go
+- Chain (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\event\middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\mnt\user-data\outputs\obslib\pkg\middleware\event\middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\servicemesh\servicemesh.go
+- newTraceID (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gotracing\tracing.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\ids\ids.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\trace\trace.go
+- LuaScriptForStrategy (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\advanced_redis_store.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\lua\lua.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\redis_store\redis_store.go
+- WithTimeout (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\client\http\timeout.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\timeout.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\runtime\shutdown\shutdown.go
+- WithTraceID (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\common\common.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\context\context.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\telemetry\trace\provider.go
+- NewEngine (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\policy\policy.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\validator\schema\engine.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\workflow\workflow.go
+- coalesce (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\auditv.1\audit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\utils\string.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\idempotency\idempotency.go
+- max64 (3 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\limiter\limiter.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\memory_store\memory_store.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\redis_store\redis_store.go
+- NewProvider (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gotracing\tracing.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\telemetry\trace\provider.go
+- ByHeader (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\rateLimit.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\ratelimit\extractor\extractor.go
+- ParseTraceID (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gotracing\tracing.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\ids\ids.go
+- ParseSpanID (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gotracing\tracing.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\ids\ids.go
+- Combine (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\rateLimit.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goretry\retry.go
+- min64 (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\rateLimit.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\security\security.go
+- IsRetryable (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goretry\retry.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\tx\tx.go
+- ByRemoteAddr (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\framework_middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\ratelimit\extractor\extractor.go
+- IsEmail (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gosanitizer\sanitizer.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\validator.go
+- TraceIDFromContext (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\trace\span.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\telemetry\trace\provider.go
+- randomHex (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\trace\trace.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\security\security.go
+- fnv32 (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\outbox\outbox.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\servicemesh\servicemesh.go
+- InstrumentedPublisher (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\event\middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\mnt\user-data\outputs\obslib\pkg\middleware\event\middleware.go
+- WithLogger (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\logger.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\registry\registry.go
+- GetRequestID (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\requestid.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\ids\ids.go
+- Validate (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\resilience\validator\validator.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\schema\schema.go
+- ValidateStruct (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\resilience\validator\validator.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\validator\schema\engine.go
+- NotifyContext (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\runtime\shutdown\shutdown.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\runtime\signals\signals.go
+- NewRole (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\permission\permission.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\policy\policy.go
+- WrapError (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\errors\errors.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\redis_store\redis_store.go
+- Min (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\resilience\validator\validator.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\security\security.go
+- WithRetry (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\event\middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\mnt\user-data\outputs\obslib\pkg\middleware\event\middleware.go
+- newRequestID (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\logging-middleware\logging.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\ids\ids.go
+- newResponseWriter (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\logging-middleware\logging.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\http\logger.go
+- GinRequireRoles (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\adminshield\adminshield.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\adminshield\admin-middleware\admin.middleware.go
+- NewAdaptiveConcurrencyLimiter (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\lib_word\adaptive_concurrency.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\performance\performance.go
+- NewBulkhead (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\lib_word\bulkhead.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\performance\performance.go
+- main (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\lib_word\cmd\example\main.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\cmd\example\main.go
+- WithPropagation (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\event\middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\mnt\user-data\outputs\obslib\pkg\middleware\event\middleware.go
+- WithObservability (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\event\middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\mnt\user-data\outputs\obslib\pkg\middleware\event\middleware.go
+- ExponentialBackoff (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\event\middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\mnt\user-data\outputs\obslib\pkg\middleware\event\middleware.go
+- ChiRequireRoles (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\adminshield\adminshield.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\adminshield\admin-middleware\admin.middleware.go
+- contains (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\cors\cors.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\policy\policy.go
+- DefaultEventMetrics (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\event\middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\mnt\user-data\outputs\obslib\pkg\middleware\event\middleware.go
+- normalizePart (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\advanced_types.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\key\key.go
+- ToAPIResponse (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\advanced_base.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- NotFound (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\advanced_base.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- captureStack (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\advanced_base.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- SpanID (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\context\context.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\trace\trace.go
+- With (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\context\values.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\telemetry\baggage\baggage.go
+- Unauthorized (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\advanced_base.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- Conflict (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\advanced_base.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- Timeout (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\advanced_base.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- Internal (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\advanced_base.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- Forbidden (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\advanced_base.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- Validation (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\advanced_base.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- TraceID (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\context\context.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\trace\trace.go
+- WithUserID (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\auditv.1\audit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\context\context.go
+- WithTenantID (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\auditv.1\audit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\common\common.go
+- NewLogger (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\auditv.1\audit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\common\common.go
+- VerifyChain (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\audit\audit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\auditv.1\audit.go
+- Init (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\audit\audit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gotracing\tracing.go
+- WithCorrelationID (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\auditv.1\audit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\context\context.go
+- Int (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\config\env\env.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\logger\field.go
+- RequestID (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\context\context.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\logging-middleware\logging.middleware.go
+- String (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\config\env\env.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\logger\field.go
+- UnaryClientInterceptor (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\client\grpc\interceptor.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\push_code_middleware\grpc\interceptor.go
+- pseudoRand (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\common\common.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\servicemesh\servicemesh.go
+- newID (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goauth\auth.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\tx\tx.go
+- maxDuration (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\advanced_engine.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\limiter\limiter.go
+- contextWithClaims (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goauth\auth.middleware.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\middleware\adminshield\admin-middleware\admin.middleware.go
+- ByIP (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\enterprise\ratelimit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\rateLimit.middleware.go
+- ByUser (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\enterprise\ratelimit.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\rateLimit.middleware.go
+- NewRedisStore (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\advanced_redis_store.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\redis_store\redis_store.go
+- toFloat64 (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\advanced_redis_store.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\redis_store\redis_store.go
+- NewKey (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\advanced_types.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\key\key.go
+- toInt64 (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\advanced_redis_store.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\redis_store\redis_store.go
+- parseTwoIntReply (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\advanced_redis_store.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\redis_store\redis_store.go
+- parseTokenBucketReply (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goratelimit\advanced_redis_store.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\ratelimitX\redis_store\redis_store.go
+- FromSlog (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\logger\logger.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\observability\logging\logging.go
+- HTTPStatusFrom (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\advanced_base.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- Wrap (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\wrap.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- IsCode (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\advanced_base.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- RateLimit (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\advanced_base.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- IsCategory (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\errors\advanced_base.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\goerror\error.go
+- ParseLevel (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\logger\advanced.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gologger\logger.go
+- NewRateSampler (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\logger\advanced.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gologger\logger.go
+- MultiWriter (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\logger\advanced.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gologger\logger.go
+- RequestIDFromContext (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\logger\advanced.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\logging-middleware\logging.middleware.go
+- NewRotateWriter (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\logger\advanced.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gologger\logger.go
+- ContextWithRequestID (2 declarations)
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\core\logger\advanced.go
+  - C:\Users\AdminWC\Dift App project\Project-Production-Ready\libpackage\gologger\logger.go

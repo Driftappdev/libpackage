@@ -1,11 +1,11 @@
-package loader
+﻿package loader
 
 import (
 	"context"
 	"errors"
 
-	"github.com/driftappdev/libpackage/plugins/hooks"
-	"github.com/driftappdev/libpackage/plugins/manifest"
+	"github.com/platformcore/libpackage/plugins/hooks"
+	"github.com/platformcore/libpackage/plugins/manifest"
 )
 
 type Loader interface {
@@ -85,3 +85,4 @@ func (s Service) CloseAll(ctx context.Context) error {
 	}
 	return CloseAll(ctx, s.All())
 }
+

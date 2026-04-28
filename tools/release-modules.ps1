@@ -1,4 +1,4 @@
-param(
+﻿param(
     [ValidateSet("major","minor","patch")][string]$Bump = "patch",
     [string]$Version,
     [ValidateSet("all","standard","filemods")][string]$Scope = "all",
@@ -103,7 +103,7 @@ function Get-Modules([string]$RepoRoot) {
 }
 
 function Is-FileMod([string]$ModulePath) {
-    return $ModulePath -like "github.com/driftappdev/libpackage/filemods/*"
+    return $ModulePath -like "github.com/platformcore/libpackage/filemods/*"
 }
 
 function Run([string]$cmd) {
@@ -249,3 +249,4 @@ Write-Host "Release completed."
 Write-Host "Scope: $Scope"
 Write-Host "Modules touched: $changed"
 Write-Host "New tags created: $tagCount"
+

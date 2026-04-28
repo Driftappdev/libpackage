@@ -13,7 +13,7 @@
     "modules":  [
                     {
                         "path":  "compat/goauth",
-                        "module":  "github.com/driftappdev/libpackage/compat/goauth",
+                        "module":  "github.com/platformcore/libpackage/compat/goauth",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -23,7 +23,7 @@
                     },
                     {
                         "path":  "compat/gocircuit",
-                        "module":  "github.com/driftappdev/libpackage/compat/gocircuit",
+                        "module":  "github.com/platformcore/libpackage/compat/gocircuit",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -33,7 +33,7 @@
                     },
                     {
                         "path":  "compat/goerror",
-                        "module":  "github.com/driftappdev/libpackage/compat/goerror",
+                        "module":  "github.com/platformcore/libpackage/compat/goerror",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -43,7 +43,7 @@
                     },
                     {
                         "path":  "compat/gologger",
-                        "module":  "github.com/driftappdev/libpackage/compat/gologger",
+                        "module":  "github.com/platformcore/libpackage/compat/gologger",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -53,7 +53,7 @@
                     },
                     {
                         "path":  "compat/gometrics",
-                        "module":  "github.com/driftappdev/libpackage/compat/gometrics",
+                        "module":  "github.com/platformcore/libpackage/compat/gometrics",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -63,7 +63,7 @@
                     },
                     {
                         "path":  "compat/goratelimit",
-                        "module":  "github.com/driftappdev/libpackage/compat/goratelimit",
+                        "module":  "github.com/platformcore/libpackage/compat/goratelimit",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  6,
@@ -73,7 +73,7 @@
                     },
                     {
                         "path":  "compat/goretry",
-                        "module":  "github.com/driftappdev/libpackage/compat/goretry",
+                        "module":  "github.com/platformcore/libpackage/compat/goretry",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -83,7 +83,7 @@
                     },
                     {
                         "path":  "compat/gosanitizer",
-                        "module":  "github.com/driftappdev/libpackage/compat/gosanitizer",
+                        "module":  "github.com/platformcore/libpackage/compat/gosanitizer",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -93,7 +93,7 @@
                     },
                     {
                         "path":  "compat/gotimeout",
-                        "module":  "github.com/driftappdev/libpackage/compat/gotimeout",
+                        "module":  "github.com/platformcore/libpackage/compat/gotimeout",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -103,7 +103,7 @@
                     },
                     {
                         "path":  "compat/gotracing",
-                        "module":  "github.com/driftappdev/libpackage/compat/gotracing",
+                        "module":  "github.com/platformcore/libpackage/compat/gotracing",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -113,7 +113,7 @@
                     },
                     {
                         "path":  "foundation/client",
-                        "module":  "github.com/driftappdev/libpackage/foundation/client",
+                        "module":  "github.com/platformcore/libpackage/foundation/client",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  0,
@@ -123,7 +123,7 @@
                     },
                     {
                         "path":  "foundation/config",
-                        "module":  "github.com/driftappdev/libpackage/foundation/config",
+                        "module":  "github.com/platformcore/libpackage/foundation/config",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  0,
@@ -133,7 +133,7 @@
                     },
                     {
                         "path":  "foundation/contracts",
-                        "module":  "github.com/driftappdev/libpackage/foundation/contracts",
+                        "module":  "github.com/platformcore/libpackage/foundation/contracts",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  0,
@@ -143,7 +143,7 @@
                     },
                     {
                         "path":  "foundation/core",
-                        "module":  "github.com/driftappdev/libpackage/foundation/core",
+                        "module":  "github.com/platformcore/libpackage/foundation/core",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  0,
@@ -153,7 +153,7 @@
                     },
                     {
                         "path":  "foundation/result",
-                        "module":  "github.com/driftappdev/libpackage/foundation/result",
+                        "module":  "github.com/platformcore/libpackage/foundation/result",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -163,7 +163,7 @@
                     },
                     {
                         "path":  "foundation/runtime",
-                        "module":  "github.com/driftappdev/libpackage/foundation/runtime",
+                        "module":  "github.com/platformcore/libpackage/foundation/runtime",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  0,
@@ -173,7 +173,7 @@
                     },
                     {
                         "path":  "foundation/schema",
-                        "module":  "github.com/driftappdev/libpackage/foundation/schema",
+                        "module":  "github.com/platformcore/libpackage/foundation/schema",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -183,7 +183,7 @@
                     },
                     {
                         "path":  "foundation/validator/binding",
-                        "module":  "github.com/driftappdev/libpackage/foundation/validator/binding",
+                        "module":  "github.com/platformcore/libpackage/foundation/validator/binding",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  2,
@@ -193,7 +193,7 @@
                     },
                     {
                         "path":  "foundation/validator/schema",
-                        "module":  "github.com/driftappdev/libpackage/foundation/validator/schema",
+                        "module":  "github.com/platformcore/libpackage/foundation/validator/schema",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  3,
@@ -203,7 +203,7 @@
                     },
                     {
                         "path":  "messaging/audit",
-                        "module":  "github.com/driftappdev/libpackage/messaging/audit",
+                        "module":  "github.com/platformcore/libpackage/messaging/audit",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -213,7 +213,7 @@
                     },
                     {
                         "path":  "messaging/dlq",
-                        "module":  "github.com/driftappdev/libpackage/messaging/dlq",
+                        "module":  "github.com/platformcore/libpackage/messaging/dlq",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -223,7 +223,7 @@
                     },
                     {
                         "path":  "messaging/example_integration",
-                        "module":  "github.com/driftappdev/libpackage/messaging/example_integration",
+                        "module":  "github.com/platformcore/libpackage/messaging/example_integration",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -233,7 +233,7 @@
                     },
                     {
                         "path":  "messaging/idempotency",
-                        "module":  "github.com/driftappdev/libpackage/messaging/idempotency",
+                        "module":  "github.com/platformcore/libpackage/messaging/idempotency",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -243,7 +243,7 @@
                     },
                     {
                         "path":  "messaging/inbox",
-                        "module":  "github.com/driftappdev/libpackage/messaging/inbox",
+                        "module":  "github.com/platformcore/libpackage/messaging/inbox",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -253,7 +253,7 @@
                     },
                     {
                         "path":  "messaging/outbox",
-                        "module":  "github.com/driftappdev/libpackage/messaging/outbox",
+                        "module":  "github.com/platformcore/libpackage/messaging/outbox",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -263,7 +263,7 @@
                     },
                     {
                         "path":  "messaging/redrive",
-                        "module":  "github.com/driftappdev/libpackage/messaging/redrive",
+                        "module":  "github.com/platformcore/libpackage/messaging/redrive",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -273,7 +273,7 @@
                     },
                     {
                         "path":  "messaging/replay",
-                        "module":  "github.com/driftappdev/libpackage/messaging/replay",
+                        "module":  "github.com/platformcore/libpackage/messaging/replay",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  6,
@@ -283,7 +283,7 @@
                     },
                     {
                         "path":  "middleware/clock",
-                        "module":  "github.com/driftappdev/libpackage/middleware/clock",
+                        "module":  "github.com/platformcore/libpackage/middleware/clock",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -293,7 +293,7 @@
                     },
                     {
                         "path":  "middleware/event",
-                        "module":  "github.com/driftappdev/libpackage/middleware/event",
+                        "module":  "github.com/platformcore/libpackage/middleware/event",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -303,7 +303,7 @@
                     },
                     {
                         "path":  "middleware/ids",
-                        "module":  "github.com/driftappdev/libpackage/middleware/ids",
+                        "module":  "github.com/platformcore/libpackage/middleware/ids",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -313,7 +313,7 @@
                     },
                     {
                         "path":  "middleware/logging",
-                        "module":  "github.com/driftappdev/libpackage/middleware/logging",
+                        "module":  "github.com/platformcore/libpackage/middleware/logging",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -323,7 +323,7 @@
                     },
                     {
                         "path":  "middleware/pool",
-                        "module":  "github.com/driftappdev/libpackage/middleware/pool",
+                        "module":  "github.com/platformcore/libpackage/middleware/pool",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -333,7 +333,7 @@
                     },
                     {
                         "path":  "middleware/propagation",
-                        "module":  "github.com/driftappdev/libpackage/middleware/propagation",
+                        "module":  "github.com/platformcore/libpackage/middleware/propagation",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -343,7 +343,7 @@
                     },
                     {
                         "path":  "middleware/registry",
-                        "module":  "github.com/driftappdev/libpackage/middleware/registry",
+                        "module":  "github.com/platformcore/libpackage/middleware/registry",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -353,7 +353,7 @@
                     },
                     {
                         "path":  "middleware/trace",
-                        "module":  "github.com/driftappdev/libpackage/middleware/trace",
+                        "module":  "github.com/platformcore/libpackage/middleware/trace",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -363,7 +363,7 @@
                     },
                     {
                         "path":  "observability/audit",
-                        "module":  "github.com/driftappdev/libpackage/observability/audit",
+                        "module":  "github.com/platformcore/libpackage/observability/audit",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -373,7 +373,7 @@
                     },
                     {
                         "path":  "observability/correlation",
-                        "module":  "github.com/driftappdev/libpackage/observability/correlation",
+                        "module":  "github.com/platformcore/libpackage/observability/correlation",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -383,7 +383,7 @@
                     },
                     {
                         "path":  "observability",
-                        "module":  "github.com/driftappdev/libpackage/observability",
+                        "module":  "github.com/platformcore/libpackage/observability",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  0,
@@ -393,7 +393,7 @@
                     },
                     {
                         "path":  "observability/healthcheck",
-                        "module":  "github.com/driftappdev/libpackage/observability/healthcheck",
+                        "module":  "github.com/platformcore/libpackage/observability/healthcheck",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  3,
@@ -403,7 +403,7 @@
                     },
                     {
                         "path":  "observability/logging",
-                        "module":  "github.com/driftappdev/libpackage/observability/logging",
+                        "module":  "github.com/platformcore/libpackage/observability/logging",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  3,
@@ -413,7 +413,7 @@
                     },
                     {
                         "path":  "observability/metrics",
-                        "module":  "github.com/driftappdev/libpackage/observability/metrics",
+                        "module":  "github.com/platformcore/libpackage/observability/metrics",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  2,
@@ -423,7 +423,7 @@
                     },
                     {
                         "path":  "observability/metrics/registry",
-                        "module":  "github.com/driftappdev/libpackage/observability/metrics/registry",
+                        "module":  "github.com/platformcore/libpackage/observability/metrics/registry",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -433,7 +433,7 @@
                     },
                     {
                         "path":  "observability/performance",
-                        "module":  "github.com/driftappdev/libpackage/observability/performance",
+                        "module":  "github.com/platformcore/libpackage/observability/performance",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -443,7 +443,7 @@
                     },
                     {
                         "path":  "observability/profiler",
-                        "module":  "github.com/driftappdev/libpackage/observability/profiler",
+                        "module":  "github.com/platformcore/libpackage/observability/profiler",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  2,
@@ -453,7 +453,7 @@
                     },
                     {
                         "path":  "observability/sentinelprofiler",
-                        "module":  "github.com/driftappdev/libpackage/observability/sentinelprofiler",
+                        "module":  "github.com/platformcore/libpackage/observability/sentinelprofiler",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -463,7 +463,7 @@
                     },
                     {
                         "path":  "observability/span",
-                        "module":  "github.com/driftappdev/libpackage/observability/span",
+                        "module":  "github.com/platformcore/libpackage/observability/span",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -473,7 +473,7 @@
                     },
                     {
                         "path":  "observability/telemetry/baggage",
-                        "module":  "github.com/driftappdev/libpackage/observability/telemetry/baggage",
+                        "module":  "github.com/platformcore/libpackage/observability/telemetry/baggage",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -483,7 +483,7 @@
                     },
                     {
                         "path":  "observability/telemetry/correlation",
-                        "module":  "github.com/driftappdev/libpackage/observability/telemetry/correlation",
+                        "module":  "github.com/platformcore/libpackage/observability/telemetry/correlation",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -493,7 +493,7 @@
                     },
                     {
                         "path":  "observability/telemetry/trace",
-                        "module":  "github.com/driftappdev/libpackage/observability/telemetry/trace",
+                        "module":  "github.com/platformcore/libpackage/observability/telemetry/trace",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -503,7 +503,7 @@
                     },
                     {
                         "path":  "observability/tracing",
-                        "module":  "github.com/driftappdev/libpackage/observability/tracing",
+                        "module":  "github.com/platformcore/libpackage/observability/tracing",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  4,
@@ -513,7 +513,7 @@
                     },
                     {
                         "path":  "orchestration/di",
-                        "module":  "github.com/driftappdev/libpackage/orchestration/di",
+                        "module":  "github.com/platformcore/libpackage/orchestration/di",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  0,
@@ -523,7 +523,7 @@
                     },
                     {
                         "path":  "orchestration/workflow",
-                        "module":  "github.com/driftappdev/libpackage/orchestration/workflow",
+                        "module":  "github.com/platformcore/libpackage/orchestration/workflow",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -533,7 +533,7 @@
                     },
                     {
                         "path":  "persistence/distlock",
-                        "module":  "github.com/driftappdev/libpackage/persistence/distlock",
+                        "module":  "github.com/platformcore/libpackage/persistence/distlock",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -543,7 +543,7 @@
                     },
                     {
                         "path":  "persistence/tx",
-                        "module":  "github.com/driftappdev/libpackage/persistence/tx",
+                        "module":  "github.com/platformcore/libpackage/persistence/tx",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -553,7 +553,7 @@
                     },
                     {
                         "path":  "persistence/uow",
-                        "module":  "github.com/driftappdev/libpackage/persistence/uow",
+                        "module":  "github.com/platformcore/libpackage/persistence/uow",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -563,7 +563,7 @@
                     },
                     {
                         "path":  "platform/client",
-                        "module":  "github.com/driftappdev/libpackage/platform/client",
+                        "module":  "github.com/platformcore/libpackage/platform/client",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -573,7 +573,7 @@
                     },
                     {
                         "path":  "platform/container",
-                        "module":  "github.com/driftappdev/libpackage/platform/container",
+                        "module":  "github.com/platformcore/libpackage/platform/container",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -583,7 +583,7 @@
                     },
                     {
                         "path":  "platform/evaluator",
-                        "module":  "github.com/driftappdev/libpackage/platform/evaluator",
+                        "module":  "github.com/platformcore/libpackage/platform/evaluator",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -593,7 +593,7 @@
                     },
                     {
                         "path":  "platform/eventbus",
-                        "module":  "github.com/driftappdev/libpackage/platform/eventbus",
+                        "module":  "github.com/platformcore/libpackage/platform/eventbus",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  0,
@@ -603,7 +603,7 @@
                     },
                     {
                         "path":  "platform/featureflag",
-                        "module":  "github.com/driftappdev/libpackage/platform/featureflag",
+                        "module":  "github.com/platformcore/libpackage/platform/featureflag",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  0,
@@ -613,7 +613,7 @@
                     },
                     {
                         "path":  "platform/servicemesh",
-                        "module":  "github.com/driftappdev/libpackage/platform/servicemesh",
+                        "module":  "github.com/platformcore/libpackage/platform/servicemesh",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -623,7 +623,7 @@
                     },
                     {
                         "path":  "platform/versioning",
-                        "module":  "github.com/driftappdev/libpackage/platform/versioning",
+                        "module":  "github.com/platformcore/libpackage/platform/versioning",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -633,7 +633,7 @@
                     },
                     {
                         "path":  "plugins/common",
-                        "module":  "github.com/driftappdev/libpackage/plugins/common",
+                        "module":  "github.com/platformcore/libpackage/plugins/common",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -643,7 +643,7 @@
                     },
                     {
                         "path":  "plugins/engine",
-                        "module":  "github.com/driftappdev/libpackage/plugins/engine",
+                        "module":  "github.com/platformcore/libpackage/plugins/engine",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -653,7 +653,7 @@
                     },
                     {
                         "path":  "plugins",
-                        "module":  "github.com/driftappdev/libpackage/plugins",
+                        "module":  "github.com/platformcore/libpackage/plugins",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  0,
@@ -663,7 +663,7 @@
                     },
                     {
                         "path":  "plugins/hooks",
-                        "module":  "github.com/driftappdev/libpackage/plugins/hooks",
+                        "module":  "github.com/platformcore/libpackage/plugins/hooks",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -673,7 +673,7 @@
                     },
                     {
                         "path":  "plugins/loader",
-                        "module":  "github.com/driftappdev/libpackage/plugins/loader",
+                        "module":  "github.com/platformcore/libpackage/plugins/loader",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -683,7 +683,7 @@
                     },
                     {
                         "path":  "plugins/manifest",
-                        "module":  "github.com/driftappdev/libpackage/plugins/manifest",
+                        "module":  "github.com/platformcore/libpackage/plugins/manifest",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -693,7 +693,7 @@
                     },
                     {
                         "path":  "plugins/provider",
-                        "module":  "github.com/driftappdev/libpackage/plugins/provider",
+                        "module":  "github.com/platformcore/libpackage/plugins/provider",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -703,7 +703,7 @@
                     },
                     {
                         "path":  "plugins/registry",
-                        "module":  "github.com/driftappdev/libpackage/plugins/registry",
+                        "module":  "github.com/platformcore/libpackage/plugins/registry",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -713,7 +713,7 @@
                     },
                     {
                         "path":  "ratelimit",
-                        "module":  "github.com/driftappdev/libpackage/ratelimit",
+                        "module":  "github.com/platformcore/libpackage/ratelimit",
                         "go":  "1.25.1",
                         "package_version":  "v1.0.0",
                         "go_files":  3,
@@ -723,7 +723,7 @@
                     },
                     {
                         "path":  "resilience/adaptive_concurrency",
-                        "module":  "github.com/driftappdev/libpackage/resilience/adaptive_concurrency",
+                        "module":  "github.com/platformcore/libpackage/resilience/adaptive_concurrency",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -733,7 +733,7 @@
                     },
                     {
                         "path":  "resilience/adaptive_retry",
-                        "module":  "github.com/driftappdev/libpackage/resilience/adaptive_retry",
+                        "module":  "github.com/platformcore/libpackage/resilience/adaptive_retry",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -743,7 +743,7 @@
                     },
                     {
                         "path":  "resilience/backpressure",
-                        "module":  "github.com/driftappdev/libpackage/resilience/backpressure",
+                        "module":  "github.com/platformcore/libpackage/resilience/backpressure",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -753,7 +753,7 @@
                     },
                     {
                         "path":  "resilience/batcher",
-                        "module":  "github.com/driftappdev/libpackage/resilience/batcher",
+                        "module":  "github.com/platformcore/libpackage/resilience/batcher",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -763,7 +763,7 @@
                     },
                     {
                         "path":  "resilience/bulkhead",
-                        "module":  "github.com/driftappdev/libpackage/resilience/bulkhead",
+                        "module":  "github.com/platformcore/libpackage/resilience/bulkhead",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -773,7 +773,7 @@
                     },
                     {
                         "path":  "resilience/cache_stampede_protection",
-                        "module":  "github.com/driftappdev/libpackage/resilience/cache_stampede_protection",
+                        "module":  "github.com/platformcore/libpackage/resilience/cache_stampede_protection",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -783,7 +783,7 @@
                     },
                     {
                         "path":  "resilience/checkpoint",
-                        "module":  "github.com/driftappdev/libpackage/resilience/checkpoint",
+                        "module":  "github.com/platformcore/libpackage/resilience/checkpoint",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -793,7 +793,7 @@
                     },
                     {
                         "path":  "resilience/congestion_control",
-                        "module":  "github.com/driftappdev/libpackage/resilience/congestion_control",
+                        "module":  "github.com/platformcore/libpackage/resilience/congestion_control",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -803,7 +803,7 @@
                     },
                     {
                         "path":  "resilience/deadline",
-                        "module":  "github.com/driftappdev/libpackage/resilience/deadline",
+                        "module":  "github.com/platformcore/libpackage/resilience/deadline",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -813,7 +813,7 @@
                     },
                     {
                         "path":  "resilience/distributed_rate_limit",
-                        "module":  "github.com/driftappdev/libpackage/resilience/distributed_rate_limit",
+                        "module":  "github.com/platformcore/libpackage/resilience/distributed_rate_limit",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -823,7 +823,7 @@
                     },
                     {
                         "path":  "resilience",
-                        "module":  "github.com/driftappdev/libpackage/resilience",
+                        "module":  "github.com/platformcore/libpackage/resilience",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  0,
@@ -833,7 +833,7 @@
                     },
                     {
                         "path":  "resilience/health_supervisor",
-                        "module":  "github.com/driftappdev/libpackage/resilience/health_supervisor",
+                        "module":  "github.com/platformcore/libpackage/resilience/health_supervisor",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -843,7 +843,7 @@
                     },
                     {
                         "path":  "resilience/hedged_request",
-                        "module":  "github.com/driftappdev/libpackage/resilience/hedged_request",
+                        "module":  "github.com/platformcore/libpackage/resilience/hedged_request",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -853,7 +853,7 @@
                     },
                     {
                         "path":  "resilience/limiter",
-                        "module":  "github.com/driftappdev/libpackage/resilience/limiter",
+                        "module":  "github.com/platformcore/libpackage/resilience/limiter",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -863,7 +863,7 @@
                     },
                     {
                         "path":  "resilience/load_shedder",
-                        "module":  "github.com/driftappdev/libpackage/resilience/load_shedder",
+                        "module":  "github.com/platformcore/libpackage/resilience/load_shedder",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -873,7 +873,7 @@
                     },
                     {
                         "path":  "resilience/priority_queue",
-                        "module":  "github.com/driftappdev/libpackage/resilience/priority_queue",
+                        "module":  "github.com/platformcore/libpackage/resilience/priority_queue",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -883,7 +883,7 @@
                     },
                     {
                         "path":  "resilience/quorum",
-                        "module":  "github.com/driftappdev/libpackage/resilience/quorum",
+                        "module":  "github.com/platformcore/libpackage/resilience/quorum",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -893,7 +893,7 @@
                     },
                     {
                         "path":  "resilience/request_coalescing",
-                        "module":  "github.com/driftappdev/libpackage/resilience/request_coalescing",
+                        "module":  "github.com/platformcore/libpackage/resilience/request_coalescing",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -903,7 +903,7 @@
                     },
                     {
                         "path":  "resilience/retry_backoff",
-                        "module":  "github.com/driftappdev/libpackage/resilience/retry_backoff",
+                        "module":  "github.com/platformcore/libpackage/resilience/retry_backoff",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -913,7 +913,7 @@
                     },
                     {
                         "path":  "resilience/shadow_traffic",
-                        "module":  "github.com/driftappdev/libpackage/resilience/shadow_traffic",
+                        "module":  "github.com/platformcore/libpackage/resilience/shadow_traffic",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -923,7 +923,7 @@
                     },
                     {
                         "path":  "resilience/state_synchronizer",
-                        "module":  "github.com/driftappdev/libpackage/resilience/state_synchronizer",
+                        "module":  "github.com/platformcore/libpackage/resilience/state_synchronizer",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -933,7 +933,7 @@
                     },
                     {
                         "path":  "resilience/token_bucket",
-                        "module":  "github.com/driftappdev/libpackage/resilience/token_bucket",
+                        "module":  "github.com/platformcore/libpackage/resilience/token_bucket",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -943,7 +943,7 @@
                     },
                     {
                         "path":  "resilience/traffic_mirroring",
-                        "module":  "github.com/driftappdev/libpackage/resilience/traffic_mirroring",
+                        "module":  "github.com/platformcore/libpackage/resilience/traffic_mirroring",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -953,7 +953,7 @@
                     },
                     {
                         "path":  "resilience/validator",
-                        "module":  "github.com/driftappdev/libpackage/resilience/validator",
+                        "module":  "github.com/platformcore/libpackage/resilience/validator",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -963,7 +963,7 @@
                     },
                     {
                         "path":  "resilience/workqueue",
-                        "module":  "github.com/driftappdev/libpackage/resilience/workqueue",
+                        "module":  "github.com/platformcore/libpackage/resilience/workqueue",
                         "go":  "1.25.1",
                         "package_version":  "v0.1.0",
                         "go_files":  1,
@@ -973,7 +973,7 @@
                     },
                     {
                         "path":  "security",
-                        "module":  "github.com/driftappdev/libpackage/security",
+                        "module":  "github.com/platformcore/libpackage/security",
                         "go":  "1.25.1",
                         "package_version":  "v1.0.0",
                         "go_files":  2,
@@ -983,7 +983,7 @@
                     },
                     {
                         "path":  "tools/lib_word",
-                        "module":  "github.com/driftappdev/libpackage/tools/lib_word",
+                        "module":  "github.com/platformcore/libpackage/tools/lib_word",
                         "go":  "1.25.0",
                         "package_version":  "v0.1.0",
                         "go_files":  0,
@@ -993,3 +993,4 @@
                     }
                 ]
 }
+

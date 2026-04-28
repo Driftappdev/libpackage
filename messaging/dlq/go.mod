@@ -1,3 +1,4 @@
-module github.com/driftappdev/libpackage/messaging/dlq
+module github.com/platformcore/libpackage/messaging/dlq
 
-go 1.23.0
+go 1.25.0
+

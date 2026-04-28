@@ -1,6 +1,6 @@
-package ratelimit
+﻿package ratelimit
 
-import base "github.com/driftappdev/libpackage/ratelimit/limiter"
+import base "github.com/platformcore/libpackage/ratelimit/limiter"
 
 type Strategy = base.Strategy
 
@@ -25,3 +25,4 @@ var (
 func New(opts Options) *Limiter {
 	return base.New(opts)
 }
+

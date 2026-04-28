@@ -131,3 +131,13 @@ validator/binding/grpc.go
 validator/binding/http.go
 validator/schema/errors.go
 validator/schema/rules.go
+    ### Persistence
+persistence/tx`
+persistence/uow`
+
+    ### Messaging
+messaging/outbox`
+messaging/inbox`
+messaging/dlq`
+messaging/redrive`
+messaging/replay`

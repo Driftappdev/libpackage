@@ -1,4 +1,4 @@
-# GitHub Publish Guide
+﻿# GitHub Publish Guide
 
 This repository is a multi-module Go monorepo.
 Each module can be versioned independently with tags.
@@ -47,7 +47,7 @@ Optional flags:
 Use commands in `INSTALL_MODULES.md`, for example:
 
 ```bash
-go get github.com/driftappdev/libpackage/core/result@latest
+go get github.com/platformcore/libpackage/foundation/core/result@latest
 ```
 
 ## One-command release (bump + tag + push)
@@ -83,3 +83,5 @@ powershell -ExecutionPolicy Bypass -File .\tools\publish-github.ps1 `
   -OnlyPath persistence,messaging `
   -SkipRepoCreate
 ```
+
+

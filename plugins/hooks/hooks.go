@@ -64,3 +64,33 @@ func (a StartStopAdapter) BeforeShutdown(ctx context.Context) error {
 func (a StartStopAdapter) AfterShutdown(context.Context) error {
 	return nil
 }
+
+// HookFunc keeps compatibility with function-style hooks used by platform.
+type HookFunc func(context.Context) error
+
+// Set groups before/after HookFunc callbacks.
+type Set struct {
+	before []HookFunc
+	after  []HookFunc
+}
+
+func (s *Set) Before(h HookFunc) { s.before = append(s.before, h) }
+func (s *Set) After(h HookFunc)  { s.after = append(s.after, h) }
+
+func (s *Set) RunBefore(ctx context.Context) error {
+	for _, h := range s.before {
+		if err := h(ctx); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+func (s *Set) RunAfter(ctx context.Context) error {
+	for _, h := range s.after {
+		if err := h(ctx); err != nil {
+			return err
+		}
+	}
+	return nil
+}

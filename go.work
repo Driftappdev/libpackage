@@ -1,83 +1,102 @@
 go 1.25.1
 
 use (
-	.
-	./client
-	./config
-	./contracts
-	./core
-	./di
-	./docs
-	./eventbus
-	./featureflag
-	./goauth
-	./gocircuit
-	./goerror
-	./gologger
-	./gometrics
-	./goratelimit
-	./goretry
-	./gosanitizer
-	./gotimeout
-	./gotracing
-	./infra
-	./logging-middleware
-	./messaging
+	./compat/goauth
+	./compat/gocircuit
+	./compat/goerror
+	./compat/gologger
+	./compat/gometrics
+	./compat/goratelimit
+	./compat/goretry
+	./compat/gosanitizer
+	./compat/gotimeout
+	./compat/gotracing
+	./foundation/client
+	./foundation/config
+	./foundation/contracts
+	./foundation/core
+	./foundation/result
+	./foundation/runtime
+	./foundation/schema
+	./foundation/validator/binding
+	./foundation/validator/schema
 	./messaging/audit
 	./messaging/dlq
+	./messaging/example_integration
 	./messaging/idempotency
 	./messaging/inbox
 	./messaging/outbox
-	./messaging/queue
 	./messaging/redrive
 	./messaging/replay
-	./middleware
-	./middleware/adminshield/admin-middleware
-	./middleware/logmid/logging-middleware
-	./middleware/requestid
-	./middleware/timeout
+	./middleware/clock
+	./middleware/event
+	./middleware/ids
+	./middleware/logging
+	./middleware/pool
+	./middleware/propagation
+	./middleware/registry
+	./middleware/trace
 	./observability
 	./observability/audit
 	./observability/correlation
 	./observability/healthcheck
+	./observability/logging
+	./observability/metrics
+	./observability/metrics/registry
 	./observability/performance
+	./observability/profiler
 	./observability/sentinelprofiler
 	./observability/span
+	./observability/telemetry/baggage
+	./observability/telemetry/correlation
+	./observability/telemetry/trace
 	./observability/tracing
-	./persistence
+	./orchestration/di
+	./orchestration/workflow
 	./persistence/distlock
 	./persistence/tx
 	./persistence/uow
-	./platform
+	./platform/client
+	./platform/container
+	./platform/evaluator
+	./platform/eventbus
+	./platform/featureflag
 	./platform/servicemesh
+	./platform/versioning
 	./plugins
 	./plugins/common
 	./plugins/engine
+	./plugins/hooks
+	./plugins/loader
+	./plugins/manifest
+	./plugins/provider
+	./plugins/registry
 	./ratelimit
-	./ratelimit/enterprise
-	./ratelimit/memory_store
 	./resilience
-	./resilience/cache
-	./resilience/circuit
-	./resilience/pagination
-	./resilience/retry
-	./resilience/sanitizer
-	./resilience/serializer
-	./resilience/validate
+	./resilience/adaptive_concurrency
+	./resilience/adaptive_retry
+	./resilience/backpressure
+	./resilience/batcher
+	./resilience/bulkhead
+	./resilience/cache_stampede_protection
+	./resilience/checkpoint
+	./resilience/congestion_control
+	./resilience/deadline
+	./resilience/distributed_rate_limit
+	./resilience/health_supervisor
+	./resilience/hedged_request
+	./resilience/limiter
+	./resilience/load_shedder
+	./resilience/priority_queue
+	./resilience/quorum
+	./resilience/request_coalescing
+	./resilience/retry_backoff
+	./resilience/shadow_traffic
+	./resilience/state_synchronizer
+	./resilience/token_bucket
+	./resilience/traffic_mirroring
 	./resilience/validator
-	./result
-	./runtime
+	./resilience/workqueue
 	./security
-	./security/encryption
-	./security/hash
-	./security/jwt
-	./security/oauth2
-	./security/permission
-	./security/policy
-	./security/secrets
-	./security/suite
-	./security/threatdefense
-	./telemetry
-	./testing
-	./validator
+	./tools/lib_word
 )
