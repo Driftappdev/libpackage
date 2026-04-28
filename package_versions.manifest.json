@@ -1,0 +1,995 @@
+﻿{
+    "updated_at":  "2026-04-28",
+    "repository":  "libpackage",
+    "version_policy":  {
+                           "stable":  "v1.0.0",
+                           "internal":  "v0.1.0"
+                       },
+    "status_policy":  {
+                          "stable":  "production-ready and backward-compatible",
+                          "beta":  "active development; minor breaking changes possible",
+                          "deprecated":  "do not use for new integrations; migration recommended"
+                      },
+    "modules":  [
+                    {
+                        "path":  "compat/goauth",
+                        "module":  "github.com/driftappdev/libpackage/compat/goauth",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "compat/gocircuit",
+                        "module":  "github.com/driftappdev/libpackage/compat/gocircuit",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "compat/goerror",
+                        "module":  "github.com/driftappdev/libpackage/compat/goerror",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "compat/gologger",
+                        "module":  "github.com/driftappdev/libpackage/compat/gologger",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "compat/gometrics",
+                        "module":  "github.com/driftappdev/libpackage/compat/gometrics",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "compat/goratelimit",
+                        "module":  "github.com/driftappdev/libpackage/compat/goratelimit",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  6,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "compat/goretry",
+                        "module":  "github.com/driftappdev/libpackage/compat/goretry",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "compat/gosanitizer",
+                        "module":  "github.com/driftappdev/libpackage/compat/gosanitizer",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "compat/gotimeout",
+                        "module":  "github.com/driftappdev/libpackage/compat/gotimeout",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "compat/gotracing",
+                        "module":  "github.com/driftappdev/libpackage/compat/gotracing",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "foundation/client",
+                        "module":  "github.com/driftappdev/libpackage/foundation/client",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  0,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "foundation/config",
+                        "module":  "github.com/driftappdev/libpackage/foundation/config",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  0,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "foundation/contracts",
+                        "module":  "github.com/driftappdev/libpackage/foundation/contracts",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  0,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "foundation/core",
+                        "module":  "github.com/driftappdev/libpackage/foundation/core",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  0,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "foundation/result",
+                        "module":  "github.com/driftappdev/libpackage/foundation/result",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "foundation/runtime",
+                        "module":  "github.com/driftappdev/libpackage/foundation/runtime",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  0,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "foundation/schema",
+                        "module":  "github.com/driftappdev/libpackage/foundation/schema",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "foundation/validator/binding",
+                        "module":  "github.com/driftappdev/libpackage/foundation/validator/binding",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  2,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "foundation/validator/schema",
+                        "module":  "github.com/driftappdev/libpackage/foundation/validator/schema",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  3,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "messaging/audit",
+                        "module":  "github.com/driftappdev/libpackage/messaging/audit",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "messaging/dlq",
+                        "module":  "github.com/driftappdev/libpackage/messaging/dlq",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "messaging/example_integration",
+                        "module":  "github.com/driftappdev/libpackage/messaging/example_integration",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "messaging/idempotency",
+                        "module":  "github.com/driftappdev/libpackage/messaging/idempotency",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "messaging/inbox",
+                        "module":  "github.com/driftappdev/libpackage/messaging/inbox",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "messaging/outbox",
+                        "module":  "github.com/driftappdev/libpackage/messaging/outbox",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "messaging/redrive",
+                        "module":  "github.com/driftappdev/libpackage/messaging/redrive",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "messaging/replay",
+                        "module":  "github.com/driftappdev/libpackage/messaging/replay",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  6,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "middleware/clock",
+                        "module":  "github.com/driftappdev/libpackage/middleware/clock",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "middleware/event",
+                        "module":  "github.com/driftappdev/libpackage/middleware/event",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "middleware/ids",
+                        "module":  "github.com/driftappdev/libpackage/middleware/ids",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "middleware/logging",
+                        "module":  "github.com/driftappdev/libpackage/middleware/logging",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "middleware/pool",
+                        "module":  "github.com/driftappdev/libpackage/middleware/pool",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "middleware/propagation",
+                        "module":  "github.com/driftappdev/libpackage/middleware/propagation",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "middleware/registry",
+                        "module":  "github.com/driftappdev/libpackage/middleware/registry",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "middleware/trace",
+                        "module":  "github.com/driftappdev/libpackage/middleware/trace",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability/audit",
+                        "module":  "github.com/driftappdev/libpackage/observability/audit",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability/correlation",
+                        "module":  "github.com/driftappdev/libpackage/observability/correlation",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability",
+                        "module":  "github.com/driftappdev/libpackage/observability",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  0,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability/healthcheck",
+                        "module":  "github.com/driftappdev/libpackage/observability/healthcheck",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  3,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability/logging",
+                        "module":  "github.com/driftappdev/libpackage/observability/logging",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  3,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability/metrics",
+                        "module":  "github.com/driftappdev/libpackage/observability/metrics",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  2,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability/metrics/registry",
+                        "module":  "github.com/driftappdev/libpackage/observability/metrics/registry",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability/performance",
+                        "module":  "github.com/driftappdev/libpackage/observability/performance",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability/profiler",
+                        "module":  "github.com/driftappdev/libpackage/observability/profiler",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  2,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability/sentinelprofiler",
+                        "module":  "github.com/driftappdev/libpackage/observability/sentinelprofiler",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability/span",
+                        "module":  "github.com/driftappdev/libpackage/observability/span",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability/telemetry/baggage",
+                        "module":  "github.com/driftappdev/libpackage/observability/telemetry/baggage",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability/telemetry/correlation",
+                        "module":  "github.com/driftappdev/libpackage/observability/telemetry/correlation",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability/telemetry/trace",
+                        "module":  "github.com/driftappdev/libpackage/observability/telemetry/trace",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "observability/tracing",
+                        "module":  "github.com/driftappdev/libpackage/observability/tracing",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  4,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "orchestration/di",
+                        "module":  "github.com/driftappdev/libpackage/orchestration/di",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  0,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "orchestration/workflow",
+                        "module":  "github.com/driftappdev/libpackage/orchestration/workflow",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "persistence/distlock",
+                        "module":  "github.com/driftappdev/libpackage/persistence/distlock",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "persistence/tx",
+                        "module":  "github.com/driftappdev/libpackage/persistence/tx",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "persistence/uow",
+                        "module":  "github.com/driftappdev/libpackage/persistence/uow",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "platform/client",
+                        "module":  "github.com/driftappdev/libpackage/platform/client",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "platform/container",
+                        "module":  "github.com/driftappdev/libpackage/platform/container",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "platform/evaluator",
+                        "module":  "github.com/driftappdev/libpackage/platform/evaluator",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "platform/eventbus",
+                        "module":  "github.com/driftappdev/libpackage/platform/eventbus",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  0,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "platform/featureflag",
+                        "module":  "github.com/driftappdev/libpackage/platform/featureflag",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  0,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "platform/servicemesh",
+                        "module":  "github.com/driftappdev/libpackage/platform/servicemesh",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "platform/versioning",
+                        "module":  "github.com/driftappdev/libpackage/platform/versioning",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "plugins/common",
+                        "module":  "github.com/driftappdev/libpackage/plugins/common",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "plugins/engine",
+                        "module":  "github.com/driftappdev/libpackage/plugins/engine",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "plugins",
+                        "module":  "github.com/driftappdev/libpackage/plugins",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  0,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "plugins/hooks",
+                        "module":  "github.com/driftappdev/libpackage/plugins/hooks",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "plugins/loader",
+                        "module":  "github.com/driftappdev/libpackage/plugins/loader",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "plugins/manifest",
+                        "module":  "github.com/driftappdev/libpackage/plugins/manifest",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "plugins/provider",
+                        "module":  "github.com/driftappdev/libpackage/plugins/provider",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "plugins/registry",
+                        "module":  "github.com/driftappdev/libpackage/plugins/registry",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "ratelimit",
+                        "module":  "github.com/driftappdev/libpackage/ratelimit",
+                        "go":  "1.25.1",
+                        "package_version":  "v1.0.0",
+                        "go_files":  3,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "stable"
+                    },
+                    {
+                        "path":  "resilience/adaptive_concurrency",
+                        "module":  "github.com/driftappdev/libpackage/resilience/adaptive_concurrency",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/adaptive_retry",
+                        "module":  "github.com/driftappdev/libpackage/resilience/adaptive_retry",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/backpressure",
+                        "module":  "github.com/driftappdev/libpackage/resilience/backpressure",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/batcher",
+                        "module":  "github.com/driftappdev/libpackage/resilience/batcher",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/bulkhead",
+                        "module":  "github.com/driftappdev/libpackage/resilience/bulkhead",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/cache_stampede_protection",
+                        "module":  "github.com/driftappdev/libpackage/resilience/cache_stampede_protection",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/checkpoint",
+                        "module":  "github.com/driftappdev/libpackage/resilience/checkpoint",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/congestion_control",
+                        "module":  "github.com/driftappdev/libpackage/resilience/congestion_control",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/deadline",
+                        "module":  "github.com/driftappdev/libpackage/resilience/deadline",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/distributed_rate_limit",
+                        "module":  "github.com/driftappdev/libpackage/resilience/distributed_rate_limit",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience",
+                        "module":  "github.com/driftappdev/libpackage/resilience",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  0,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/health_supervisor",
+                        "module":  "github.com/driftappdev/libpackage/resilience/health_supervisor",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/hedged_request",
+                        "module":  "github.com/driftappdev/libpackage/resilience/hedged_request",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/limiter",
+                        "module":  "github.com/driftappdev/libpackage/resilience/limiter",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/load_shedder",
+                        "module":  "github.com/driftappdev/libpackage/resilience/load_shedder",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/priority_queue",
+                        "module":  "github.com/driftappdev/libpackage/resilience/priority_queue",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/quorum",
+                        "module":  "github.com/driftappdev/libpackage/resilience/quorum",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/request_coalescing",
+                        "module":  "github.com/driftappdev/libpackage/resilience/request_coalescing",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/retry_backoff",
+                        "module":  "github.com/driftappdev/libpackage/resilience/retry_backoff",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/shadow_traffic",
+                        "module":  "github.com/driftappdev/libpackage/resilience/shadow_traffic",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/state_synchronizer",
+                        "module":  "github.com/driftappdev/libpackage/resilience/state_synchronizer",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/token_bucket",
+                        "module":  "github.com/driftappdev/libpackage/resilience/token_bucket",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/traffic_mirroring",
+                        "module":  "github.com/driftappdev/libpackage/resilience/traffic_mirroring",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/validator",
+                        "module":  "github.com/driftappdev/libpackage/resilience/validator",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "resilience/workqueue",
+                        "module":  "github.com/driftappdev/libpackage/resilience/workqueue",
+                        "go":  "1.25.1",
+                        "package_version":  "v0.1.0",
+                        "go_files":  1,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    },
+                    {
+                        "path":  "security",
+                        "module":  "github.com/driftappdev/libpackage/security",
+                        "go":  "1.25.1",
+                        "package_version":  "v1.0.0",
+                        "go_files":  2,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "stable"
+                    },
+                    {
+                        "path":  "tools/lib_word",
+                        "module":  "github.com/driftappdev/libpackage/tools/lib_word",
+                        "go":  "1.25.0",
+                        "package_version":  "v0.1.0",
+                        "go_files":  0,
+                        "purpose":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "suitable_for":  "See PACKAGE_SUMMARY_AND_VERSIONS.md",
+                        "status":  "beta"
+                    }
+                ]
+}
